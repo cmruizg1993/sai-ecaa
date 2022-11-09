@@ -1,0 +1,67 @@
+ERROR - 2022-04-28 11:47:52 --> Table 'contaweb_contaweb.ingreso_odern_trabajo_vehiculo' doesn't exist
+CRITICAL - 2022-04-28 11:47:52 --> Table 'contaweb_contaweb.ingreso_odern_trabajo_vehiculo' doesn't exist
+#0 C:\Markell\markell-services\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `in...', 0)
+#1 C:\Markell\markell-services\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `in...')
+#2 C:\Markell\markell-services\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `in...')
+#3 C:\Markell\markell-services\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `in...', Array, false)
+#4 C:\Markell\markell-services\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Markell\markell-services\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\Markell\markell-services\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Markell\markell-services\system\BaseModel.php(658): CodeIgniter\Model->insert(Object(App\Entities\EntryWorkOrder), false)
+#8 C:\Markell\markell-services\app\Controllers\EntryVehicle.php(112): CodeIgniter\BaseModel->save(Object(App\Entities\EntryWorkOrder))
+#9 C:\Markell\markell-services\system\CodeIgniter.php(832): App\Controllers\EntryVehicle->create()
+#10 C:\Markell\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EntryVehicle))
+#11 C:\Markell\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Markell\markell-services\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#13 C:\Markell\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\Markell\\mark...')
+#14 {main}
+ERROR - 2022-04-28 11:53:07 --> Table 'contaweb_contaweb.ingreso_odern_trabajo_vehiculo' doesn't exist
+CRITICAL - 2022-04-28 11:53:07 --> Table 'contaweb_contaweb.ingreso_odern_trabajo_vehiculo' doesn't exist
+#0 C:\Markell\markell-services\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `in...', 0)
+#1 C:\Markell\markell-services\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `in...')
+#2 C:\Markell\markell-services\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `in...')
+#3 C:\Markell\markell-services\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `in...', Array, false)
+#4 C:\Markell\markell-services\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Markell\markell-services\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\Markell\markell-services\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Markell\markell-services\system\BaseModel.php(658): CodeIgniter\Model->insert(Object(App\Entities\EntryWorkOrder), false)
+#8 C:\Markell\markell-services\app\Controllers\EntryVehicle.php(112): CodeIgniter\BaseModel->save(Object(App\Entities\EntryWorkOrder))
+#9 C:\Markell\markell-services\system\CodeIgniter.php(832): App\Controllers\EntryVehicle->create()
+#10 C:\Markell\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EntryVehicle))
+#11 C:\Markell\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Markell\markell-services\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#13 C:\Markell\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\Markell\\mark...')
+#14 {main}
+ERROR - 2022-04-28 11:53:52 --> Table 'contaweb_contaweb.ingreso_ordenn_trabajo_vehiculo' doesn't exist
+CRITICAL - 2022-04-28 11:53:52 --> Table 'contaweb_contaweb.ingreso_ordenn_trabajo_vehiculo' doesn't exist
+#0 C:\Markell\markell-services\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `in...', 0)
+#1 C:\Markell\markell-services\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `in...')
+#2 C:\Markell\markell-services\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `in...')
+#3 C:\Markell\markell-services\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `in...', Array, false)
+#4 C:\Markell\markell-services\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Markell\markell-services\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\Markell\markell-services\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Markell\markell-services\system\BaseModel.php(658): CodeIgniter\Model->insert(Object(App\Entities\EntryWorkOrder), false)
+#8 C:\Markell\markell-services\app\Controllers\EntryVehicle.php(112): CodeIgniter\BaseModel->save(Object(App\Entities\EntryWorkOrder))
+#9 C:\Markell\markell-services\system\CodeIgniter.php(832): App\Controllers\EntryVehicle->create()
+#10 C:\Markell\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EntryVehicle))
+#11 C:\Markell\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Markell\markell-services\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#13 C:\Markell\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\Markell\\mark...')
+#14 {main}
+CRITICAL - 2022-04-28 11:54:17 --> Undefined index: photos
+#0 C:\Markell\markell-services\app\Controllers\EntryVehicle.php(122): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Markell\\mark...', 122, Array)
+#1 C:\Markell\markell-services\system\CodeIgniter.php(832): App\Controllers\EntryVehicle->create()
+#2 C:\Markell\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EntryVehicle))
+#3 C:\Markell\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Markell\markell-services\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#5 C:\Markell\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\Markell\\mark...')
+#6 {main}
+CRITICAL - 2022-04-28 12:03:02 --> Undefined index: photos
+#0 C:\Markell\markell-services\app\Controllers\EntryVehicle.php(132): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Markell\\mark...', 132, Array)
+#1 C:\Markell\markell-services\system\CodeIgniter.php(832): App\Controllers\EntryVehicle->create()
+#2 C:\Markell\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EntryVehicle))
+#3 C:\Markell\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Markell\markell-services\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#5 C:\Markell\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\Markell\\mark...')
+#6 {main}

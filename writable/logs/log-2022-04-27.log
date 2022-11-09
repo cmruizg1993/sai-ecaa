@@ -1,0 +1,38 @@
+CRITICAL - 2022-04-27 13:04:29 --> Attempt to assign property 'details' of non-object
+#0 C:\Markell\markell-services\app\Controllers\EntryVehicle.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to assi...', 'C:\\Markell\\mark...', 43, Array)
+#1 C:\Markell\markell-services\system\CodeIgniter.php(832): App\Controllers\EntryVehicle->show()
+#2 C:\Markell\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EntryVehicle))
+#3 C:\Markell\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Markell\markell-services\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#5 C:\Markell\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\Markell\\mark...')
+#6 {main}
+CRITICAL - 2022-04-27 13:09:10 --> Trying to get property 'client_id' of non-object
+#0 C:\Markell\markell-services\app\Controllers\EntryVehicle.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\Markell\\mark...', 55, Array)
+#1 C:\Markell\markell-services\system\CodeIgniter.php(832): App\Controllers\EntryVehicle->show('11')
+#2 C:\Markell\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EntryVehicle))
+#3 C:\Markell\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Markell\markell-services\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#5 C:\Markell\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\Markell\\mark...')
+#6 {main}
+CRITICAL - 2022-04-27 13:46:24 --> Class 'App\Models\WorkOrderModel' not found
+#0 C:\Markell\markell-services\system\CodeIgniter.php(832): App\Controllers\WorkOrder->index()
+#1 C:\Markell\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WorkOrder))
+#2 C:\Markell\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Markell\markell-services\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#4 C:\Markell\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\Markell\\mark...')
+#5 {main}
+ERROR - 2022-04-27 13:47:09 --> Table 'contaweb_contaweb.orden_trabajo_vehiculo' doesn't exist
+CRITICAL - 2022-04-27 13:47:09 --> Table 'contaweb_contaweb.orden_trabajo_vehiculo' doesn't exist
+#0 C:\Markell\markell-services\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Markell\markell-services\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Markell\markell-services\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Markell\markell-services\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Markell\markell-services\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Markell\markell-services\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Markell\markell-services\app\Controllers\WorkOrder.php(22): CodeIgniter\BaseModel->findAll()
+#7 C:\Markell\markell-services\system\CodeIgniter.php(832): App\Controllers\WorkOrder->index()
+#8 C:\Markell\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WorkOrder))
+#9 C:\Markell\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Markell\markell-services\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#11 C:\Markell\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\Markell\\mark...')
+#12 {main}

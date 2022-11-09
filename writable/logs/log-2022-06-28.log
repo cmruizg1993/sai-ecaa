@@ -1,0 +1,8 @@
+CRITICAL - 2022-06-28 20:07:17 --> Call to a member function getJSON() on null
+#0 C:\Markell\markell-services\app\Controllers\Provider.php(17): App\Controllers\Provider->search('sham')
+#1 C:\Markell\markell-services\system\CodeIgniter.php(832): App\Controllers\Provider->search()
+#2 C:\Markell\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Provider))
+#3 C:\Markell\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Markell\markell-services\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#5 C:\Markell\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\Markell\\mark...')
+#6 {main}

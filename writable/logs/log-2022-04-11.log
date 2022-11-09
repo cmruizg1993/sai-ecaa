@@ -1,0 +1,145 @@
+CRITICAL - 2022-04-11 12:54:43 --> password_hash(): Unknown password hashing algorithm: 0
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'password_hash()...', 'C:\\Markell\\mark...', 27, Array)
+#1 C:\Markell\markell-services\app\Controllers\Login.php(27): password_hash('Alexsys', NULL)
+#2 C:\Markell\markell-services\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#3 C:\Markell\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#4 C:\Markell\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Markell\markell-services\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 C:\Markell\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\Markell\\mark...')
+#7 {main}
+CRITICAL - 2022-04-11 12:55:34 --> Too few arguments to function Firebase\JWT\JWT::encode(), 2 passed in C:\Markell\markell-services\app\Controllers\Login.php on line 46 and at least 3 expected
+#0 C:\Markell\markell-services\app\Controllers\Login.php(46): Firebase\JWT\JWT::encode(Array, false)
+#1 C:\Markell\markell-services\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#2 C:\Markell\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\Markell\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Markell\markell-services\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 C:\Markell\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\Markell\\mark...')
+#6 {main}
+CRITICAL - 2022-04-11 12:58:38 --> Class 'Firebase\JWT' not found
+#0 C:\Markell\markell-services\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#1 C:\Markell\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 C:\Markell\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Markell\markell-services\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 C:\Markell\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\Markell\\mark...')
+#5 {main}
+CRITICAL - 2022-04-11 13:00:42 --> openssl_sign(): supplied key param cannot be coerced into a private key
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'openssl_sign():...', 'C:\\Markell\\mark...', 232, Array)
+#1 C:\Markell\markell-services\vendor\firebase\php-jwt\src\JWT.php(232): openssl_sign('eyJ0eXAiOiJKV1Q...', '', false, 'SHA256')
+#2 C:\Markell\markell-services\vendor\firebase\php-jwt\src\JWT.php(197): Firebase\JWT\JWT::sign('eyJ0eXAiOiJKV1Q...', false, 'RS256')
+#3 C:\Markell\markell-services\app\Controllers\Login.php(46): Firebase\JWT\JWT::encode(Array, false, 'RS256')
+#4 C:\Markell\markell-services\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#5 C:\Markell\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\Markell\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Markell\markell-services\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#8 C:\Markell\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\Markell\\mark...')
+#9 {main}
+CRITICAL - 2022-04-11 13:01:12 --> openssl_sign(): supplied key param cannot be coerced into a private key
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'openssl_sign():...', 'C:\\Markell\\mark...', 232, Array)
+#1 C:\Markell\markell-services\vendor\firebase\php-jwt\src\JWT.php(232): openssl_sign('eyJ0eXAiOiJKV1Q...', '', false, 'SHA256')
+#2 C:\Markell\markell-services\vendor\firebase\php-jwt\src\JWT.php(197): Firebase\JWT\JWT::sign('eyJ0eXAiOiJKV1Q...', false, 'RS256')
+#3 C:\Markell\markell-services\app\Controllers\Login.php(46): Firebase\JWT\JWT::encode(Array, false, 'RS256')
+#4 C:\Markell\markell-services\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#5 C:\Markell\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\Markell\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Markell\markell-services\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#8 C:\Markell\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\Markell\\mark...')
+#9 {main}
+CRITICAL - 2022-04-11 13:04:23 --> key must be a string when using hmac
+#0 C:\Markell\markell-services\vendor\firebase\php-jwt\src\JWT.php(197): Firebase\JWT\JWT::sign('eyJ0eXAiOiJKV1Q...', false, 'HS256')
+#1 C:\Markell\markell-services\app\Controllers\Login.php(46): Firebase\JWT\JWT::encode(Array, false, 'HS256')
+#2 C:\Markell\markell-services\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#3 C:\Markell\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#4 C:\Markell\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Markell\markell-services\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 C:\Markell\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\Markell\\mark...')
+#7 {main}
+CRITICAL - 2022-04-11 13:23:28 --> Invalid argument supplied for foreach()
+#0 C:\Markell\markell-services\vendor\firebase\php-jwt\src\JWT.php(422): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Markell\\mark...', 422, Array)
+#1 C:\Markell\markell-services\vendor\firebase\php-jwt\src\JWT.php(125): Firebase\JWT\JWT::getKey('YYF1kwvIw41hGY9...', 'Mr5-AUibfBii7Nd...')
+#2 C:\Markell\markell-services\app\Filters\AuthFilter.php(66): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', 'YYF1kwvIw41hGY9...', Array)
+#3 C:\Markell\markell-services\system\Filters\Filters.php(196): App\Filters\AuthFilter->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), NULL)
+#4 C:\Markell\markell-services\system\CodeIgniter.php(436): CodeIgniter\Filters\Filters->run('category', 'after')
+#5 C:\Markell\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Markell\markell-services\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 C:\Markell\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\Markell\\mark...')
+#8 {main}
+CRITICAL - 2022-04-11 13:25:29 --> Invalid argument supplied for foreach()
+#0 C:\Markell\markell-services\vendor\firebase\php-jwt\src\JWT.php(422): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Markell\\mark...', 422, Array)
+#1 C:\Markell\markell-services\vendor\firebase\php-jwt\src\JWT.php(125): Firebase\JWT\JWT::getKey('YYF1kwvIw41hGY9...', 'Mr5-AUibfBii7Nd...')
+#2 C:\Markell\markell-services\app\Filters\AuthFilter.php(66): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', 'YYF1kwvIw41hGY9...')
+#3 C:\Markell\markell-services\system\Filters\Filters.php(196): App\Filters\AuthFilter->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), NULL)
+#4 C:\Markell\markell-services\system\CodeIgniter.php(436): CodeIgniter\Filters\Filters->run('category', 'after')
+#5 C:\Markell\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Markell\markell-services\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 C:\Markell\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\Markell\\mark...')
+#8 {main}
+CRITICAL - 2022-04-11 13:26:04 --> $keyOrKeyArray must be an instance of Firebase\JWT\Key key or an array of Firebase\JWT\Key keys
+#0 C:\Markell\markell-services\vendor\firebase\php-jwt\src\JWT.php(125): Firebase\JWT\JWT::getKey(Array, 'Mr5-AUibfBii7Nd...')
+#1 C:\Markell\markell-services\app\Filters\AuthFilter.php(66): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', Array)
+#2 C:\Markell\markell-services\system\Filters\Filters.php(196): App\Filters\AuthFilter->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), NULL)
+#3 C:\Markell\markell-services\system\CodeIgniter.php(436): CodeIgniter\Filters\Filters->run('category', 'after')
+#4 C:\Markell\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Markell\markell-services\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 C:\Markell\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\Markell\\mark...')
+#7 {main}
+CRITICAL - 2022-04-11 13:26:42 --> Class 'App\Filters\Key' not found
+#0 C:\Markell\markell-services\system\Filters\Filters.php(196): App\Filters\AuthFilter->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), NULL)
+#1 C:\Markell\markell-services\system\CodeIgniter.php(436): CodeIgniter\Filters\Filters->run('category', 'after')
+#2 C:\Markell\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Markell\markell-services\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 C:\Markell\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\Markell\\mark...')
+#5 {main}
+CRITICAL - 2022-04-11 13:27:17 --> Incorrect key for this algorithm
+#0 C:\Markell\markell-services\app\Filters\AuthFilter.php(67): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', Object(Firebase\JWT\Key))
+#1 C:\Markell\markell-services\system\Filters\Filters.php(196): App\Filters\AuthFilter->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), NULL)
+#2 C:\Markell\markell-services\system\CodeIgniter.php(436): CodeIgniter\Filters\Filters->run('category', 'after')
+#3 C:\Markell\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Markell\markell-services\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 C:\Markell\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\Markell\\mark...')
+#6 {main}
+CRITICAL - 2022-04-11 13:28:15 --> Incorrect key for this algorithm
+#0 C:\Markell\markell-services\app\Filters\AuthFilter.php(67): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', Object(Firebase\JWT\Key))
+#1 C:\Markell\markell-services\system\Filters\Filters.php(196): App\Filters\AuthFilter->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), NULL)
+#2 C:\Markell\markell-services\system\CodeIgniter.php(436): CodeIgniter\Filters\Filters->run('category', 'after')
+#3 C:\Markell\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Markell\markell-services\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 C:\Markell\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\Markell\\mark...')
+#6 {main}
+CRITICAL - 2022-04-11 13:32:01 --> Wrong number of segments
+#0 C:\Markell\markell-services\app\Filters\AuthFilter.php(67): Firebase\JWT\JWT::decode('holaaaa', Object(Firebase\JWT\Key))
+#1 C:\Markell\markell-services\system\Filters\Filters.php(196): App\Filters\AuthFilter->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), NULL)
+#2 C:\Markell\markell-services\system\CodeIgniter.php(436): CodeIgniter\Filters\Filters->run('category', 'after')
+#3 C:\Markell\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Markell\markell-services\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 C:\Markell\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\Markell\\mark...')
+#6 {main}
+CRITICAL - 2022-04-11 13:32:14 --> Malformed UTF-8 characters
+#0 C:\Markell\markell-services\vendor\firebase\php-jwt\src\JWT.php(337): Firebase\JWT\JWT::handleJsonError(5)
+#1 C:\Markell\markell-services\vendor\firebase\php-jwt\src\JWT.php(107): Firebase\JWT\JWT::jsonDecode('\x86\x89Zi\xA6')
+#2 C:\Markell\markell-services\app\Filters\AuthFilter.php(67): Firebase\JWT\JWT::decode('holaaaa.as.asd', Object(Firebase\JWT\Key))
+#3 C:\Markell\markell-services\system\Filters\Filters.php(196): App\Filters\AuthFilter->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), NULL)
+#4 C:\Markell\markell-services\system\CodeIgniter.php(436): CodeIgniter\Filters\Filters->run('category', 'after')
+#5 C:\Markell\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Markell\markell-services\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 C:\Markell\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\Markell\\mark...')
+#8 {main}
+CRITICAL - 2022-04-11 13:32:14 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in C:\Markell\markell-services\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\Markell\markell-services\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 C:\Markell\markell-services\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\Markell\markell-services\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\Markell\markell-services\system\Debug\Exceptions.php(115): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(DomainException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-04-11 13:33:27 --> Object of class stdClass could not be converted to string
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'C:\\Markell\\mark...', 439, Array)
+#1 C:\Markell\markell-services\system\HTTP\ResponseTrait.php(439): str_replace(Array, '', Object(stdClass))
+#2 C:\Markell\markell-services\system\CodeIgniter.php(998): CodeIgniter\HTTP\Response->send()
+#3 C:\Markell\markell-services\system\CodeIgniter.php(458): CodeIgniter\CodeIgniter->sendResponse()
+#4 C:\Markell\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Markell\markell-services\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 C:\Markell\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\Markell\\mark...')
+#7 {main}

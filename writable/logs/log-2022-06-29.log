@@ -1,0 +1,37 @@
+CRITICAL - 2022-06-29 21:54:42 --> Object of class DateTime could not be converted to string
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'C:\\Markell\\mark...', 318, Array)
+#1 C:\Markell\markell-services\system\Database\Query.php(318): strtr('INSERT INTO `pe...', Array)
+#2 C:\Markell\markell-services\system\Database\Query.php(293): CodeIgniter\Database\Query->matchNamedBinds('INSERT INTO `pe...', Array)
+#3 C:\Markell\markell-services\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#4 C:\Markell\markell-services\system\Database\BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#5 C:\Markell\markell-services\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#6 C:\Markell\markell-services\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#7 C:\Markell\markell-services\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#8 C:\Markell\markell-services\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#9 C:\Markell\markell-services\system\BaseModel.php(658): CodeIgniter\Model->insert(Object(App\Entities\ClientOrder), false)
+#10 C:\Markell\markell-services\app\Models\ClientOrderModel.php(11): CodeIgniter\BaseModel->save(Object(App\Entities\ClientOrder))
+#11 C:\Markell\markell-services\app\Controllers\ClientOrder.php(117): App\Models\ClientOrderModel->add_client_order(Object(App\Entities\ClientOrder))
+#12 C:\Markell\markell-services\system\CodeIgniter.php(832): App\Controllers\ClientOrder->create()
+#13 C:\Markell\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientOrder))
+#14 C:\Markell\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 C:\Markell\markell-services\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#16 C:\Markell\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\Markell\\mark...')
+#17 {main}
+CRITICAL - 2022-06-29 22:07:13 --> Class 'App\Entities\Product' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-29 22:43:44 --> Indirect modification of overloaded property App\Entities\ClientOrder::$details has no effect
+#0 C:\Markell\markell-services\app\Controllers\ClientOrder.php(150): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Indirect modifi...', 'C:\\Markell\\mark...', 150, Array)
+#1 C:\Markell\markell-services\system\CodeIgniter.php(832): App\Controllers\ClientOrder->create()
+#2 C:\Markell\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientOrder))
+#3 C:\Markell\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Markell\markell-services\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#5 C:\Markell\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\Markell\\mark...')
+#6 {main}
+CRITICAL - 2022-06-29 22:44:44 --> Cannot use object of type App\Entities\ClientOrder as array
+#0 C:\Markell\markell-services\system\CodeIgniter.php(832): App\Controllers\ClientOrder->create()
+#1 C:\Markell\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientOrder))
+#2 C:\Markell\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Markell\markell-services\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#4 C:\Markell\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\Markell\\mark...')
+#5 {main}

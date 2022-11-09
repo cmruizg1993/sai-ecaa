@@ -1,0 +1,200 @@
+CRITICAL - 2022-04-13 13:55:49 --> Argument 1 passed to CodeIgniter\Entity\Entity::fill() must be of the type array or null, object given, called in C:\Markell\markell-services\app\Controllers\Vehicle.php on line 22
+#0 C:\Markell\markell-services\app\Controllers\Vehicle.php(22): CodeIgniter\Entity\Entity->fill(Object(stdClass))
+#1 C:\Markell\markell-services\system\CodeIgniter.php(832): App\Controllers\Vehicle->create()
+#2 C:\Markell\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#3 C:\Markell\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Markell\markell-services\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#5 C:\Markell\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\Markell\\mark...')
+#6 {main}
+CRITICAL - 2022-04-13 13:57:11 --> Argument 1 passed to CodeIgniter\Entity\Entity::fill() must be of the type array or null, object given, called in C:\Markell\markell-services\app\Controllers\Vehicle.php on line 22
+#0 C:\Markell\markell-services\app\Controllers\Vehicle.php(22): CodeIgniter\Entity\Entity->fill(Object(stdClass))
+#1 C:\Markell\markell-services\system\CodeIgniter.php(832): App\Controllers\Vehicle->create()
+#2 C:\Markell\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#3 C:\Markell\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Markell\markell-services\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#5 C:\Markell\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\Markell\\mark...')
+#6 {main}
+CRITICAL - 2022-04-13 14:00:11 --> json_decode() expects parameter 1 to be string, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() e...', 'C:\\Markell\\mark...', 22, Array)
+#1 C:\Markell\markell-services\app\Controllers\Vehicle.php(22): json_decode(Object(stdClass))
+#2 C:\Markell\markell-services\system\CodeIgniter.php(832): App\Controllers\Vehicle->create()
+#3 C:\Markell\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\Markell\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Markell\markell-services\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#6 C:\Markell\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\Markell\\mark...')
+#7 {main}
+CRITICAL - 2022-04-13 14:03:31 --> json_decode() expects parameter 1 to be string, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() e...', 'C:\\Markell\\mark...', 23, Array)
+#1 C:\Markell\markell-services\app\Controllers\Vehicle.php(23): json_decode(Object(stdClass))
+#2 C:\Markell\markell-services\system\CodeIgniter.php(832): App\Controllers\Vehicle->create()
+#3 C:\Markell\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\Markell\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Markell\markell-services\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#6 C:\Markell\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\Markell\\mark...')
+#7 {main}
+CRITICAL - 2022-04-13 14:03:54 --> Argument 1 passed to CodeIgniter\Entity\Entity::fill() must be of the type array or null, object given, called in C:\Markell\markell-services\app\Controllers\Vehicle.php on line 23
+#0 C:\Markell\markell-services\app\Controllers\Vehicle.php(23): CodeIgniter\Entity\Entity->fill(Object(stdClass))
+#1 C:\Markell\markell-services\system\CodeIgniter.php(832): App\Controllers\Vehicle->create()
+#2 C:\Markell\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#3 C:\Markell\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Markell\markell-services\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#5 C:\Markell\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\Markell\\mark...')
+#6 {main}
+CRITICAL - 2022-04-13 14:11:19 --> json_decode() expects parameter 1 to be string, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() e...', 'C:\\Markell\\mark...', 21, Array)
+#1 C:\Markell\markell-services\app\Controllers\Vehicle.php(21): json_decode(Object(stdClass), true)
+#2 C:\Markell\markell-services\system\CodeIgniter.php(832): App\Controllers\Vehicle->create()
+#3 C:\Markell\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#4 C:\Markell\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Markell\markell-services\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#6 C:\Markell\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\Markell\\mark...')
+#7 {main}
+CRITICAL - 2022-04-13 14:38:42 --> There is no data to insert.
+#0 C:\Markell\markell-services\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\Markell\markell-services\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#2 C:\Markell\markell-services\system\BaseModel.php(658): CodeIgniter\Model->insert(Object(App\Entities\Vehicle), false)
+#3 C:\Markell\markell-services\app\Controllers\Vehicle.php(25): CodeIgniter\BaseModel->save(Object(App\Entities\Vehicle))
+#4 C:\Markell\markell-services\system\CodeIgniter.php(832): App\Controllers\Vehicle->create()
+#5 C:\Markell\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#6 C:\Markell\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Markell\markell-services\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#8 C:\Markell\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\Markell\\mark...')
+#9 {main}
+CRITICAL - 2022-04-13 14:39:10 --> There is no data to insert.
+#0 C:\Markell\markell-services\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\Markell\markell-services\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#2 C:\Markell\markell-services\system\BaseModel.php(658): CodeIgniter\Model->insert(Object(App\Entities\Vehicle), false)
+#3 C:\Markell\markell-services\app\Controllers\Vehicle.php(25): CodeIgniter\BaseModel->save(Object(App\Entities\Vehicle))
+#4 C:\Markell\markell-services\system\CodeIgniter.php(832): App\Controllers\Vehicle->create()
+#5 C:\Markell\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#6 C:\Markell\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Markell\markell-services\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#8 C:\Markell\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\Markell\\mark...')
+#9 {main}
+CRITICAL - 2022-04-13 14:42:37 --> There is no data to insert.
+#0 C:\Markell\markell-services\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\Markell\markell-services\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#2 C:\Markell\markell-services\system\BaseModel.php(658): CodeIgniter\Model->insert(Object(App\Entities\Vehicle), false)
+#3 C:\Markell\markell-services\app\Controllers\Vehicle.php(25): CodeIgniter\BaseModel->save(Object(App\Entities\Vehicle))
+#4 C:\Markell\markell-services\system\CodeIgniter.php(832): App\Controllers\Vehicle->create()
+#5 C:\Markell\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#6 C:\Markell\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Markell\markell-services\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#8 C:\Markell\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\Markell\\mark...')
+#9 {main}
+CRITICAL - 2022-04-13 14:43:23 --> There is no data to insert.
+#0 C:\Markell\markell-services\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\Markell\markell-services\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#2 C:\Markell\markell-services\system\BaseModel.php(658): CodeIgniter\Model->insert(Object(App\Entities\Vehicle), false)
+#3 C:\Markell\markell-services\app\Controllers\Vehicle.php(25): CodeIgniter\BaseModel->save(Object(App\Entities\Vehicle))
+#4 C:\Markell\markell-services\system\CodeIgniter.php(832): App\Controllers\Vehicle->create()
+#5 C:\Markell\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#6 C:\Markell\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Markell\markell-services\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#8 C:\Markell\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\Markell\\mark...')
+#9 {main}
+CRITICAL - 2022-04-13 14:43:48 --> There is no data to insert.
+#0 C:\Markell\markell-services\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\Markell\markell-services\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#2 C:\Markell\markell-services\system\BaseModel.php(658): CodeIgniter\Model->insert(Object(App\Entities\Vehicle), false)
+#3 C:\Markell\markell-services\app\Controllers\Vehicle.php(25): CodeIgniter\BaseModel->save(Object(App\Entities\Vehicle))
+#4 C:\Markell\markell-services\system\CodeIgniter.php(832): App\Controllers\Vehicle->create()
+#5 C:\Markell\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#6 C:\Markell\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Markell\markell-services\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#8 C:\Markell\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\Markell\\mark...')
+#9 {main}
+CRITICAL - 2022-04-13 14:43:56 --> There is no data to insert.
+#0 C:\Markell\markell-services\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\Markell\markell-services\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#2 C:\Markell\markell-services\system\BaseModel.php(658): CodeIgniter\Model->insert(Object(App\Entities\Vehicle), false)
+#3 C:\Markell\markell-services\app\Controllers\Vehicle.php(25): CodeIgniter\BaseModel->save(Object(App\Entities\Vehicle))
+#4 C:\Markell\markell-services\system\CodeIgniter.php(832): App\Controllers\Vehicle->create()
+#5 C:\Markell\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#6 C:\Markell\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Markell\markell-services\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#8 C:\Markell\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\Markell\\mark...')
+#9 {main}
+CRITICAL - 2022-04-13 14:45:11 --> There is no data to insert.
+#0 C:\Markell\markell-services\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\Markell\markell-services\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#2 C:\Markell\markell-services\system\BaseModel.php(658): CodeIgniter\Model->insert(Object(App\Entities\Vehicle), false)
+#3 C:\Markell\markell-services\app\Controllers\Vehicle.php(25): CodeIgniter\BaseModel->save(Object(App\Entities\Vehicle))
+#4 C:\Markell\markell-services\system\CodeIgniter.php(832): App\Controllers\Vehicle->create()
+#5 C:\Markell\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#6 C:\Markell\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Markell\markell-services\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#8 C:\Markell\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\Markell\\mark...')
+#9 {main}
+CRITICAL - 2022-04-13 14:46:48 --> There is no data to insert.
+#0 C:\Markell\markell-services\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\Markell\markell-services\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#2 C:\Markell\markell-services\system\BaseModel.php(658): CodeIgniter\Model->insert(Object(App\Entities\Vehicle), false)
+#3 C:\Markell\markell-services\app\Controllers\Vehicle.php(25): CodeIgniter\BaseModel->save(Object(App\Entities\Vehicle))
+#4 C:\Markell\markell-services\system\CodeIgniter.php(832): App\Controllers\Vehicle->create()
+#5 C:\Markell\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#6 C:\Markell\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Markell\markell-services\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#8 C:\Markell\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\Markell\\mark...')
+#9 {main}
+CRITICAL - 2022-04-13 14:47:05 --> There is no data to insert.
+#0 C:\Markell\markell-services\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\Markell\markell-services\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#2 C:\Markell\markell-services\system\BaseModel.php(658): CodeIgniter\Model->insert(Object(App\Entities\Vehicle), false)
+#3 C:\Markell\markell-services\app\Controllers\Vehicle.php(25): CodeIgniter\BaseModel->save(Object(App\Entities\Vehicle))
+#4 C:\Markell\markell-services\system\CodeIgniter.php(832): App\Controllers\Vehicle->create()
+#5 C:\Markell\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#6 C:\Markell\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Markell\markell-services\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#8 C:\Markell\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\Markell\\mark...')
+#9 {main}
+CRITICAL - 2022-04-13 14:47:52 --> There is no data to insert.
+#0 C:\Markell\markell-services\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\Markell\markell-services\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#2 C:\Markell\markell-services\system\BaseModel.php(658): CodeIgniter\Model->insert(Object(App\Entities\Vehicle), false)
+#3 C:\Markell\markell-services\app\Controllers\Vehicle.php(25): CodeIgniter\BaseModel->save(Object(App\Entities\Vehicle))
+#4 C:\Markell\markell-services\system\CodeIgniter.php(832): App\Controllers\Vehicle->create()
+#5 C:\Markell\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#6 C:\Markell\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Markell\markell-services\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#8 C:\Markell\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\Markell\\mark...')
+#9 {main}
+CRITICAL - 2022-04-13 14:48:11 --> There is no data to insert.
+#0 C:\Markell\markell-services\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\Markell\markell-services\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#2 C:\Markell\markell-services\system\BaseModel.php(658): CodeIgniter\Model->insert(Object(App\Entities\Vehicle), false)
+#3 C:\Markell\markell-services\app\Controllers\Vehicle.php(25): CodeIgniter\BaseModel->save(Object(App\Entities\Vehicle))
+#4 C:\Markell\markell-services\system\CodeIgniter.php(832): App\Controllers\Vehicle->create()
+#5 C:\Markell\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#6 C:\Markell\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Markell\markell-services\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#8 C:\Markell\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\Markell\\mark...')
+#9 {main}
+CRITICAL - 2022-04-13 14:50:47 --> There is no data to insert.
+#0 C:\Markell\markell-services\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\Markell\markell-services\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#2 C:\Markell\markell-services\system\BaseModel.php(658): CodeIgniter\Model->insert(Object(App\Entities\Vehicle), false)
+#3 C:\Markell\markell-services\app\Controllers\Vehicle.php(25): CodeIgniter\BaseModel->save(Object(App\Entities\Vehicle))
+#4 C:\Markell\markell-services\system\CodeIgniter.php(832): App\Controllers\Vehicle->create()
+#5 C:\Markell\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#6 C:\Markell\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Markell\markell-services\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#8 C:\Markell\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\Markell\\mark...')
+#9 {main}
+ERROR - 2022-04-13 14:58:36 --> Column 'idCliente' cannot be null
+CRITICAL - 2022-04-13 14:58:36 --> Column 'idCliente' cannot be null
+#0 C:\Markell\markell-services\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ve...', 0)
+#1 C:\Markell\markell-services\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 C:\Markell\markell-services\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 C:\Markell\markell-services\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 C:\Markell\markell-services\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Markell\markell-services\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\Markell\markell-services\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Markell\markell-services\system\BaseModel.php(658): CodeIgniter\Model->insert(Object(App\Entities\Vehicle), false)
+#8 C:\Markell\markell-services\app\Controllers\Vehicle.php(25): CodeIgniter\BaseModel->save(Object(App\Entities\Vehicle))
+#9 C:\Markell\markell-services\system\CodeIgniter.php(832): App\Controllers\Vehicle->create()
+#10 C:\Markell\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#11 C:\Markell\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Markell\markell-services\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#13 C:\Markell\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\Markell\\mark...')
+#14 {main}

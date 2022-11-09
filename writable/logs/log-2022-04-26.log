@@ -1,0 +1,8 @@
+CRITICAL - 2022-04-26 13:59:37 --> Cannot use object of type stdClass as array
+#0 C:\Markell\markell-services\app\Controllers\EntryVehicle.php(24): getClaim(Object(CodeIgniter\HTTP\IncomingRequest), 'company_id')
+#1 C:\Markell\markell-services\system\CodeIgniter.php(832): App\Controllers\EntryVehicle->index()
+#2 C:\Markell\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EntryVehicle))
+#3 C:\Markell\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Markell\markell-services\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#5 C:\Markell\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\Markell\\mark...')
+#6 {main}

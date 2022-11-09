@@ -1,0 +1,7 @@
+CRITICAL - 2022-04-14 14:55:42 --> Call to undefined function App\Controllers\getUserFromRequest()
+#0 C:\Markell\markell-services\system\CodeIgniter.php(832): App\Controllers\Client->create()
+#1 C:\Markell\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+#2 C:\Markell\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Markell\markell-services\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#4 C:\Markell\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\Markell\\mark...')
+#5 {main}

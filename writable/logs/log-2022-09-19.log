@@ -1,0 +1,53 @@
+CRITICAL - 2022-09-19 14:20:35 --> cURL error 60: SSL certificate problem: unable to get local issuer certificate (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://oauth2.googleapis.com/token
+#0 C:\AndresDavila\saac-api\vendor\kreait\firebase-php\src\Firebase\Exception\DatabaseApiExceptionConverter.php(34): Kreait\Firebase\Exception\DatabaseApiExceptionConverter->convertGuzzleRequestException(Object(GuzzleHttp\Exception\RequestException))
+#1 C:\AndresDavila\saac-api\vendor\kreait\firebase-php\src\Firebase\Database\ApiClient.php(194): Kreait\Firebase\Exception\DatabaseApiExceptionConverter->convertException(Object(GuzzleHttp\Exception\RequestException))
+#2 C:\AndresDavila\saac-api\vendor\kreait\firebase-php\src\Firebase\Database\ApiClient.php(86): Kreait\Firebase\Database\ApiClient->requestApi('PUT', Object(GuzzleHttp\Psr7\Uri), Array)
+#3 C:\AndresDavila\saac-api\vendor\kreait\firebase-php\src\Firebase\Database\Reference.php(293): Kreait\Firebase\Database\ApiClient->set(Object(GuzzleHttp\Psr7\Uri), Array)
+#4 C:\AndresDavila\saac-api\app\Controllers\Measurement.php(44): Kreait\Firebase\Database\Reference->set(Array)
+#5 C:\AndresDavila\saac-api\system\CodeIgniter.php(832): App\Controllers\Measurement->create()
+#6 C:\AndresDavila\saac-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Measurement))
+#7 C:\AndresDavila\saac-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\AndresDavila\saac-api\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#9 C:\AndresDavila\saac-api\system\Commands\Server\rewrite.php(43): require_once('C:\\AndresDavila...')
+#10 {main}
+CRITICAL - 2022-09-19 14:26:48 --> cURL error 60: SSL certificate problem: unable to get local issuer certificate (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://oauth2.googleapis.com/token
+#0 C:\AndresDavila\saac-api\vendor\kreait\firebase-php\src\Firebase\Exception\DatabaseApiExceptionConverter.php(34): Kreait\Firebase\Exception\DatabaseApiExceptionConverter->convertGuzzleRequestException(Object(GuzzleHttp\Exception\RequestException))
+#1 C:\AndresDavila\saac-api\vendor\kreait\firebase-php\src\Firebase\Database\ApiClient.php(194): Kreait\Firebase\Exception\DatabaseApiExceptionConverter->convertException(Object(GuzzleHttp\Exception\RequestException))
+#2 C:\AndresDavila\saac-api\vendor\kreait\firebase-php\src\Firebase\Database\ApiClient.php(86): Kreait\Firebase\Database\ApiClient->requestApi('PUT', Object(GuzzleHttp\Psr7\Uri), Array)
+#3 C:\AndresDavila\saac-api\vendor\kreait\firebase-php\src\Firebase\Database\Reference.php(293): Kreait\Firebase\Database\ApiClient->set(Object(GuzzleHttp\Psr7\Uri), Array)
+#4 C:\AndresDavila\saac-api\app\Controllers\Measurement.php(44): Kreait\Firebase\Database\Reference->set(Array)
+#5 C:\AndresDavila\saac-api\system\CodeIgniter.php(832): App\Controllers\Measurement->create()
+#6 C:\AndresDavila\saac-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Measurement))
+#7 C:\AndresDavila\saac-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\AndresDavila\saac-api\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#9 C:\AndresDavila\saac-api\system\Commands\Server\rewrite.php(43): require_once('C:\\AndresDavila...')
+#10 {main}
+CRITICAL - 2022-09-19 14:50:32 --> Argument 1 passed to Kreait\Firebase\Database\Reference::update() must be of the type array, object given, called in C:\wamp64\www\saac-api\app\Controllers\Measurement.php on line 43
+#0 C:\wamp64\www\saac-api\app\Controllers\Measurement.php(43): Kreait\Firebase\Database\Reference->update(Object(App\Entities\Measurement))
+#1 C:\wamp64\www\saac-api\system\CodeIgniter.php(832): App\Controllers\Measurement->create()
+#2 C:\wamp64\www\saac-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Measurement))
+#3 C:\wamp64\www\saac-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\saac-api\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-19 14:51:05 --> Invalid data; couldn't parse JSON object. Are you sending a JSON object with valid key names?
+#0 C:\wamp64\www\saac-api\vendor\kreait\firebase-php\src\Firebase\Exception\DatabaseApiExceptionConverter.php(34): Kreait\Firebase\Exception\DatabaseApiExceptionConverter->convertGuzzleRequestException(Object(GuzzleHttp\Exception\ClientException))
+#1 C:\wamp64\www\saac-api\vendor\kreait\firebase-php\src\Firebase\Database\ApiClient.php(194): Kreait\Firebase\Exception\DatabaseApiExceptionConverter->convertException(Object(GuzzleHttp\Exception\ClientException))
+#2 C:\wamp64\www\saac-api\vendor\kreait\firebase-php\src\Firebase\Database\ApiClient.php(176): Kreait\Firebase\Database\ApiClient->requestApi('PATCH', Object(GuzzleHttp\Psr7\Uri), Array)
+#3 C:\wamp64\www\saac-api\vendor\kreait\firebase-php\src\Firebase\Database\Reference.php(382): Kreait\Firebase\Database\ApiClient->update(Object(GuzzleHttp\Psr7\Uri), Array)
+#4 C:\wamp64\www\saac-api\app\Controllers\Measurement.php(43): Kreait\Firebase\Database\Reference->update(Array)
+#5 C:\wamp64\www\saac-api\system\CodeIgniter.php(832): App\Controllers\Measurement->create()
+#6 C:\wamp64\www\saac-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Measurement))
+#7 C:\wamp64\www\saac-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\saac-api\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-19 14:51:29 --> Invalid data; couldn't parse JSON object. Are you sending a JSON object with valid key names?
+#0 C:\wamp64\www\saac-api\vendor\kreait\firebase-php\src\Firebase\Exception\DatabaseApiExceptionConverter.php(34): Kreait\Firebase\Exception\DatabaseApiExceptionConverter->convertGuzzleRequestException(Object(GuzzleHttp\Exception\ClientException))
+#1 C:\wamp64\www\saac-api\vendor\kreait\firebase-php\src\Firebase\Database\ApiClient.php(194): Kreait\Firebase\Exception\DatabaseApiExceptionConverter->convertException(Object(GuzzleHttp\Exception\ClientException))
+#2 C:\wamp64\www\saac-api\vendor\kreait\firebase-php\src\Firebase\Database\ApiClient.php(176): Kreait\Firebase\Database\ApiClient->requestApi('PATCH', Object(GuzzleHttp\Psr7\Uri), Array)
+#3 C:\wamp64\www\saac-api\vendor\kreait\firebase-php\src\Firebase\Database\Reference.php(382): Kreait\Firebase\Database\ApiClient->update(Object(GuzzleHttp\Psr7\Uri), Array)
+#4 C:\wamp64\www\saac-api\app\Controllers\Measurement.php(43): Kreait\Firebase\Database\Reference->update(Array)
+#5 C:\wamp64\www\saac-api\system\CodeIgniter.php(832): App\Controllers\Measurement->create()
+#6 C:\wamp64\www\saac-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Measurement))
+#7 C:\wamp64\www\saac-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\saac-api\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#9 {main}

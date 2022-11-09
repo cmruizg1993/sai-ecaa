@@ -1,0 +1,48 @@
+CRITICAL - 2022-04-19 20:22:08 --> Illegal string offset 'success'
+#0 C:\Markell\markell-services\app\Controllers\Vehicle.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\Markell\\mark...', 54, Array)
+#1 C:\Markell\markell-services\system\CodeIgniter.php(832): App\Controllers\Vehicle->create()
+#2 C:\Markell\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#3 C:\Markell\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Markell\markell-services\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#5 C:\Markell\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\Markell\\mark...')
+#6 {main}
+CRITICAL - 2022-04-19 20:22:28 --> Illegal string offset 'success'
+#0 C:\Markell\markell-services\app\Controllers\Vehicle.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\Markell\\mark...', 54, Array)
+#1 C:\Markell\markell-services\system\CodeIgniter.php(832): App\Controllers\Vehicle->create()
+#2 C:\Markell\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#3 C:\Markell\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Markell\markell-services\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#5 C:\Markell\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\Markell\\mark...')
+#6 {main}
+CRITICAL - 2022-04-19 20:23:57 --> Illegal string offset 'success'
+#0 C:\Markell\markell-services\app\Controllers\Vehicle.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\Markell\\mark...', 54, Array)
+#1 C:\Markell\markell-services\system\CodeIgniter.php(832): App\Controllers\Vehicle->create()
+#2 C:\Markell\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#3 C:\Markell\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Markell\markell-services\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#5 C:\Markell\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\Markell\\mark...')
+#6 {main}
+CRITICAL - 2022-04-19 20:25:38 --> Illegal string offset 'success'
+#0 C:\Markell\markell-services\app\Controllers\Vehicle.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\Markell\\mark...', 54, Array)
+#1 C:\Markell\markell-services\system\CodeIgniter.php(832): App\Controllers\Vehicle->create()
+#2 C:\Markell\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#3 C:\Markell\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Markell\markell-services\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#5 C:\Markell\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\Markell\\mark...')
+#6 {main}
+CRITICAL - 2022-04-19 20:26:16 --> Illegal string offset 'success'
+#0 C:\Markell\markell-services\app\Controllers\Vehicle.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\Markell\\mark...', 54, Array)
+#1 C:\Markell\markell-services\system\CodeIgniter.php(832): App\Controllers\Vehicle->create()
+#2 C:\Markell\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#3 C:\Markell\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Markell\markell-services\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#5 C:\Markell\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\Markell\\mark...')
+#6 {main}
+CRITICAL - 2022-04-19 20:27:07 --> Illegal string offset 'success'
+#0 C:\Markell\markell-services\app\Controllers\Vehicle.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\Markell\\mark...', 55, Array)
+#1 C:\Markell\markell-services\system\CodeIgniter.php(832): App\Controllers\Vehicle->create()
+#2 C:\Markell\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#3 C:\Markell\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Markell\markell-services\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#5 C:\Markell\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\Markell\\mark...')
+#6 {main}

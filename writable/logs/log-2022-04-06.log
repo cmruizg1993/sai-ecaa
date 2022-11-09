@@ -1,0 +1,10 @@
+ERROR - 2022-04-06 12:52:43 --> Unknown column 'id_empresa' in 'where clause'
+CRITICAL - 2022-04-06 12:52:43 --> Call to a member function getResult() on bool
+#0 C:\wamp64\www\markell-services\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\wamp64\www\markell-services\app\Controllers\CategoryController.php(17): CodeIgniter\BaseModel->findAll()
+#2 C:\wamp64\www\markell-services\system\CodeIgniter.php(832): App\Controllers\CategoryController->index()
+#3 C:\wamp64\www\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+#4 C:\wamp64\www\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\markell-services\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\m...')
+#7 {main}

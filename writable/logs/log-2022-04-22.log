@@ -1,0 +1,148 @@
+CRITICAL - 2022-04-22 13:13:01 --> Undefined property: stdClass::$user_id
+#0 C:\Markell\markell-services\app\Controllers\EntryVehicle.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Markell\\mark...', 22, Array)
+#1 C:\Markell\markell-services\system\CodeIgniter.php(832): App\Controllers\EntryVehicle->create()
+#2 C:\Markell\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EntryVehicle))
+#3 C:\Markell\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Markell\markell-services\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#5 C:\Markell\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\Markell\\mark...')
+#6 {main}
+CRITICAL - 2022-04-22 13:13:37 --> Undefined property: stdClass::$user_id
+#0 C:\Markell\markell-services\app\Controllers\EntryVehicle.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Markell\\mark...', 22, Array)
+#1 C:\Markell\markell-services\system\CodeIgniter.php(832): App\Controllers\EntryVehicle->create()
+#2 C:\Markell\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EntryVehicle))
+#3 C:\Markell\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Markell\markell-services\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#5 C:\Markell\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\Markell\\mark...')
+#6 {main}
+CRITICAL - 2022-04-22 13:14:31 --> Undefined property: stdClass::$user_id
+#0 C:\Markell\markell-services\app\Controllers\EntryVehicle.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Markell\\mark...', 22, Array)
+#1 C:\Markell\markell-services\system\CodeIgniter.php(832): App\Controllers\EntryVehicle->create()
+#2 C:\Markell\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EntryVehicle))
+#3 C:\Markell\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Markell\markell-services\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#5 C:\Markell\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\Markell\\mark...')
+#6 {main}
+CRITICAL - 2022-04-22 13:16:08 --> Undefined property: stdClass::$user_id
+#0 C:\Markell\markell-services\app\Controllers\EntryVehicle.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Markell\\mark...', 23, Array)
+#1 C:\Markell\markell-services\system\CodeIgniter.php(832): App\Controllers\EntryVehicle->create()
+#2 C:\Markell\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EntryVehicle))
+#3 C:\Markell\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Markell\markell-services\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#5 C:\Markell\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\Markell\\mark...')
+#6 {main}
+CRITICAL - 2022-04-22 13:20:54 --> Object of class DateTime could not be converted to string
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'C:\\Markell\\mark...', 318, Array)
+#1 C:\Markell\markell-services\system\Database\Query.php(318): strtr('INSERT INTO `in...', Array)
+#2 C:\Markell\markell-services\system\Database\Query.php(293): CodeIgniter\Database\Query->matchNamedBinds('INSERT INTO `in...', Array)
+#3 C:\Markell\markell-services\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#4 C:\Markell\markell-services\system\Database\BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#5 C:\Markell\markell-services\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `in...', Array, false)
+#6 C:\Markell\markell-services\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#7 C:\Markell\markell-services\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#8 C:\Markell\markell-services\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#9 C:\Markell\markell-services\system\BaseModel.php(658): CodeIgniter\Model->insert(Object(App\Entities\EntryVehicle), false)
+#10 C:\Markell\markell-services\app\Controllers\EntryVehicle.php(30): CodeIgniter\BaseModel->save(Object(App\Entities\EntryVehicle))
+#11 C:\Markell\markell-services\system\CodeIgniter.php(832): App\Controllers\EntryVehicle->create()
+#12 C:\Markell\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EntryVehicle))
+#13 C:\Markell\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\Markell\markell-services\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#15 C:\Markell\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\Markell\\mark...')
+#16 {main}
+CRITICAL - 2022-04-22 13:28:53 --> Trying to get property 'id' of non-object
+#0 C:\Markell\markell-services\app\Controllers\EntryVehicle.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\Markell\\mark...', 29, Array)
+#1 C:\Markell\markell-services\system\CodeIgniter.php(832): App\Controllers\EntryVehicle->create()
+#2 C:\Markell\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EntryVehicle))
+#3 C:\Markell\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Markell\markell-services\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#5 C:\Markell\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\Markell\\mark...')
+#6 {main}
+CRITICAL - 2022-04-22 13:32:45 --> Undefined property: App\Controllers\EntryVehicle::$db
+#0 C:\Markell\markell-services\app\Controllers\EntryVehicle.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\Markell\\mark...', 38, Array)
+#1 C:\Markell\markell-services\system\CodeIgniter.php(832): App\Controllers\EntryVehicle->create()
+#2 C:\Markell\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EntryVehicle))
+#3 C:\Markell\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Markell\markell-services\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#5 C:\Markell\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\Markell\\mark...')
+#6 {main}
+CRITICAL - 2022-04-22 13:40:27 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::insert()
+#0 C:\Markell\markell-services\app\Controllers\EntryVehicle.php(37): App\Models\EntryVehicleModel->add_entry(Object(App\Entities\EntryVehicle))
+#1 C:\Markell\markell-services\system\CodeIgniter.php(832): App\Controllers\EntryVehicle->create()
+#2 C:\Markell\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EntryVehicle))
+#3 C:\Markell\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Markell\markell-services\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#5 C:\Markell\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\Markell\\mark...')
+#6 {main}
+CRITICAL - 2022-04-22 13:42:52 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::insert() must be of the type array or null, object given, called in C:\Markell\markell-services\app\Models\EntryVehicleModel.php on line 17
+#0 C:\Markell\markell-services\app\Models\EntryVehicleModel.php(17): CodeIgniter\Database\BaseBuilder->insert(Object(App\Entities\EntryVehicle))
+#1 C:\Markell\markell-services\app\Controllers\EntryVehicle.php(37): App\Models\EntryVehicleModel->add_entry(Object(App\Entities\EntryVehicle))
+#2 C:\Markell\markell-services\system\CodeIgniter.php(832): App\Controllers\EntryVehicle->create()
+#3 C:\Markell\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EntryVehicle))
+#4 C:\Markell\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Markell\markell-services\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#6 C:\Markell\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\Markell\\mark...')
+#7 {main}
+CRITICAL - 2022-04-22 13:43:24 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::insert_id()
+#0 C:\Markell\markell-services\app\Controllers\EntryVehicle.php(37): App\Models\EntryVehicleModel->add_entry(Object(App\Entities\EntryVehicle))
+#1 C:\Markell\markell-services\system\CodeIgniter.php(832): App\Controllers\EntryVehicle->create()
+#2 C:\Markell\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EntryVehicle))
+#3 C:\Markell\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Markell\markell-services\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#5 C:\Markell\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\Markell\\mark...')
+#6 {main}
+CRITICAL - 2022-04-22 13:43:36 --> Call to undefined method App\Models\EntryVehicleModel::insert_id
+#0 C:\Markell\markell-services\app\Models\EntryVehicleModel.php(17): CodeIgniter\Model->__call('insert_id', Array)
+#1 C:\Markell\markell-services\app\Controllers\EntryVehicle.php(37): App\Models\EntryVehicleModel->add_entry(Object(App\Entities\EntryVehicle))
+#2 C:\Markell\markell-services\system\CodeIgniter.php(832): App\Controllers\EntryVehicle->create()
+#3 C:\Markell\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EntryVehicle))
+#4 C:\Markell\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Markell\markell-services\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#6 C:\Markell\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\Markell\\mark...')
+#7 {main}
+CRITICAL - 2022-04-22 14:08:37 --> Illegal string offset 'id'
+#0 C:\Markell\markell-services\app\Controllers\EntryVehicle.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\Markell\\mark...', 31, Array)
+#1 C:\Markell\markell-services\system\CodeIgniter.php(832): App\Controllers\EntryVehicle->create()
+#2 C:\Markell\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EntryVehicle))
+#3 C:\Markell\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Markell\markell-services\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#5 C:\Markell\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\Markell\\mark...')
+#6 {main}
+CRITICAL - 2022-04-22 14:09:25 --> Illegal string offset 'id'
+#0 C:\Markell\markell-services\app\Controllers\EntryVehicle.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\Markell\\mark...', 31, Array)
+#1 C:\Markell\markell-services\system\CodeIgniter.php(832): App\Controllers\EntryVehicle->create()
+#2 C:\Markell\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EntryVehicle))
+#3 C:\Markell\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Markell\markell-services\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#5 C:\Markell\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\Markell\\mark...')
+#6 {main}
+CRITICAL - 2022-04-22 14:10:14 --> Undefined index: observations
+#0 C:\Markell\markell-services\app\Controllers\EntryVehicle.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Markell\\mark...', 38, Array)
+#1 C:\Markell\markell-services\system\CodeIgniter.php(832): App\Controllers\EntryVehicle->create()
+#2 C:\Markell\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EntryVehicle))
+#3 C:\Markell\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Markell\markell-services\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#5 C:\Markell\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\Markell\\mark...')
+#6 {main}
+CRITICAL - 2022-04-22 14:11:16 --> Illegal string offset 'id'
+#0 C:\Markell\markell-services\app\Controllers\EntryVehicle.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\Markell\\mark...', 31, Array)
+#1 C:\Markell\markell-services\system\CodeIgniter.php(832): App\Controllers\EntryVehicle->create()
+#2 C:\Markell\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EntryVehicle))
+#3 C:\Markell\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Markell\markell-services\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#5 C:\Markell\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\Markell\\mark...')
+#6 {main}
+CRITICAL - 2022-04-22 14:11:26 --> Illegal string offset 'id'
+#0 C:\Markell\markell-services\app\Controllers\EntryVehicle.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\Markell\\mark...', 31, Array)
+#1 C:\Markell\markell-services\system\CodeIgniter.php(832): App\Controllers\EntryVehicle->create()
+#2 C:\Markell\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EntryVehicle))
+#3 C:\Markell\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Markell\markell-services\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#5 C:\Markell\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\Markell\\mark...')
+#6 {main}
+CRITICAL - 2022-04-22 14:13:43 --> Illegal string offset 'id'
+#0 C:\Markell\markell-services\app\Controllers\EntryVehicle.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\Markell\\mark...', 31, Array)
+#1 C:\Markell\markell-services\system\CodeIgniter.php(832): App\Controllers\EntryVehicle->create()
+#2 C:\Markell\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EntryVehicle))
+#3 C:\Markell\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Markell\markell-services\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#5 C:\Markell\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\Markell\\mark...')
+#6 {main}

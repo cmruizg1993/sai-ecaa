@@ -1,0 +1,174 @@
+CRITICAL - 2022-04-07 12:49:32 --> Illegal string offset 'image_content'
+#0 C:\wamp64\www\markell-services\app\Controllers\Image.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\wamp64\\www\\m...', 31, Array)
+#1 C:\wamp64\www\markell-services\system\CodeIgniter.php(832): App\Controllers\Image->show('139', 'category')
+#2 C:\wamp64\www\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Image))
+#3 C:\wamp64\www\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\markell-services\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\m...')
+#6 {main}
+CRITICAL - 2022-04-07 12:50:18 --> Illegal string offset 'image_content'
+#0 C:\wamp64\www\markell-services\app\Controllers\Image.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\wamp64\\www\\m...', 31, Array)
+#1 C:\wamp64\www\markell-services\system\CodeIgniter.php(832): App\Controllers\Image->show('139', 'category')
+#2 C:\wamp64\www\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Image))
+#3 C:\wamp64\www\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\markell-services\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\m...')
+#6 {main}
+CRITICAL - 2022-04-07 12:50:25 --> Illegal string offset 'image_content'
+#0 C:\wamp64\www\markell-services\app\Controllers\Image.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\wamp64\\www\\m...', 31, Array)
+#1 C:\wamp64\www\markell-services\system\CodeIgniter.php(832): App\Controllers\Image->show('139', 'category')
+#2 C:\wamp64\www\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Image))
+#3 C:\wamp64\www\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\markell-services\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\m...')
+#6 {main}
+CRITICAL - 2022-04-07 12:57:58 --> Illegal string offset 'image_content'
+#0 C:\wamp64\www\markell-services\app\Controllers\Image.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\wamp64\\www\\m...', 31, Array)
+#1 C:\wamp64\www\markell-services\system\CodeIgniter.php(832): App\Controllers\Image->show('139', 'category')
+#2 C:\wamp64\www\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Image))
+#3 C:\wamp64\www\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\markell-services\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\m...')
+#6 {main}
+CRITICAL - 2022-04-07 12:58:03 --> Illegal string offset 'image_content'
+#0 C:\wamp64\www\markell-services\app\Controllers\Image.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\wamp64\\www\\m...', 31, Array)
+#1 C:\wamp64\www\markell-services\system\CodeIgniter.php(832): App\Controllers\Image->show('139', 'category')
+#2 C:\wamp64\www\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Image))
+#3 C:\wamp64\www\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\markell-services\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\m...')
+#6 {main}
+CRITICAL - 2022-04-07 13:00:40 --> Illegal string offset 'image'
+#0 C:\wamp64\www\markell-services\app\Controllers\Image.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\wamp64\\www\\m...', 31, Array)
+#1 C:\wamp64\www\markell-services\system\CodeIgniter.php(832): App\Controllers\Image->show('139', 'category')
+#2 C:\wamp64\www\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Image))
+#3 C:\wamp64\www\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\markell-services\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\m...')
+#6 {main}
+CRITICAL - 2022-04-07 17:36:40 --> file_get_contents(images/): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\wamp64\\www\\m...', 29, Array)
+#1 C:\wamp64\www\markell-services\app\Controllers\Image.php(29): file_get_contents('images/')
+#2 C:\wamp64\www\markell-services\system\CodeIgniter.php(832): App\Controllers\Image->show('1348', 'product')
+#3 C:\wamp64\www\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Image))
+#4 C:\wamp64\www\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\markell-services\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\m...')
+#7 {main}
+CRITICAL - 2022-04-07 17:36:40 --> file_get_contents(images/): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\wamp64\\www\\m...', 29, Array)
+#1 C:\wamp64\www\markell-services\app\Controllers\Image.php(29): file_get_contents('images/')
+#2 C:\wamp64\www\markell-services\system\CodeIgniter.php(832): App\Controllers\Image->show('1349', 'product')
+#3 C:\wamp64\www\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Image))
+#4 C:\wamp64\www\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\markell-services\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\m...')
+#7 {main}
+CRITICAL - 2022-04-07 17:36:58 --> file_get_contents(images/): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\wamp64\\www\\m...', 29, Array)
+#1 C:\wamp64\www\markell-services\app\Controllers\Image.php(29): file_get_contents('images/')
+#2 C:\wamp64\www\markell-services\system\CodeIgniter.php(832): App\Controllers\Image->show('1348', 'product')
+#3 C:\wamp64\www\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Image))
+#4 C:\wamp64\www\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\markell-services\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\m...')
+#7 {main}
+CRITICAL - 2022-04-07 17:36:58 --> file_get_contents(images/): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\wamp64\\www\\m...', 29, Array)
+#1 C:\wamp64\www\markell-services\app\Controllers\Image.php(29): file_get_contents('images/')
+#2 C:\wamp64\www\markell-services\system\CodeIgniter.php(832): App\Controllers\Image->show('1349', 'product')
+#3 C:\wamp64\www\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Image))
+#4 C:\wamp64\www\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\markell-services\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\m...')
+#7 {main}
+CRITICAL - 2022-04-07 17:39:38 --> file_get_contents(images/): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\wamp64\\www\\m...', 29, Array)
+#1 C:\wamp64\www\markell-services\app\Controllers\Image.php(29): file_get_contents('images/')
+#2 C:\wamp64\www\markell-services\system\CodeIgniter.php(832): App\Controllers\Image->show('1348', 'product')
+#3 C:\wamp64\www\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Image))
+#4 C:\wamp64\www\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\markell-services\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\m...')
+#7 {main}
+CRITICAL - 2022-04-07 17:39:38 --> file_get_contents(images/): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\wamp64\\www\\m...', 29, Array)
+#1 C:\wamp64\www\markell-services\app\Controllers\Image.php(29): file_get_contents('images/')
+#2 C:\wamp64\www\markell-services\system\CodeIgniter.php(832): App\Controllers\Image->show('1349', 'product')
+#3 C:\wamp64\www\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Image))
+#4 C:\wamp64\www\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\markell-services\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\m...')
+#7 {main}
+CRITICAL - 2022-04-07 17:39:50 --> file_get_contents(images/): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\wamp64\\www\\m...', 29, Array)
+#1 C:\wamp64\www\markell-services\app\Controllers\Image.php(29): file_get_contents('images/')
+#2 C:\wamp64\www\markell-services\system\CodeIgniter.php(832): App\Controllers\Image->show('1348', 'product')
+#3 C:\wamp64\www\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Image))
+#4 C:\wamp64\www\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\markell-services\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\m...')
+#7 {main}
+CRITICAL - 2022-04-07 17:39:50 --> file_get_contents(images/): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\wamp64\\www\\m...', 29, Array)
+#1 C:\wamp64\www\markell-services\app\Controllers\Image.php(29): file_get_contents('images/')
+#2 C:\wamp64\www\markell-services\system\CodeIgniter.php(832): App\Controllers\Image->show('1349', 'product')
+#3 C:\wamp64\www\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Image))
+#4 C:\wamp64\www\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\markell-services\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\m...')
+#7 {main}
+CRITICAL - 2022-04-07 17:41:24 --> file_get_contents(images/): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\wamp64\\www\\m...', 30, Array)
+#1 C:\wamp64\www\markell-services\app\Controllers\Image.php(30): file_get_contents('images/')
+#2 C:\wamp64\www\markell-services\system\CodeIgniter.php(832): App\Controllers\Image->show('1348', 'product')
+#3 C:\wamp64\www\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Image))
+#4 C:\wamp64\www\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\markell-services\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\m...')
+#7 {main}
+CRITICAL - 2022-04-07 17:41:24 --> file_get_contents(images/): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\wamp64\\www\\m...', 30, Array)
+#1 C:\wamp64\www\markell-services\app\Controllers\Image.php(30): file_get_contents('images/')
+#2 C:\wamp64\www\markell-services\system\CodeIgniter.php(832): App\Controllers\Image->show('1349', 'product')
+#3 C:\wamp64\www\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Image))
+#4 C:\wamp64\www\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\markell-services\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\m...')
+#7 {main}
+CRITICAL - 2022-04-07 17:42:34 --> file_get_contents(images/): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\wamp64\\www\\m...', 30, Array)
+#1 C:\wamp64\www\markell-services\app\Controllers\Image.php(30): file_get_contents('images/')
+#2 C:\wamp64\www\markell-services\system\CodeIgniter.php(832): App\Controllers\Image->show('1348', 'product')
+#3 C:\wamp64\www\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Image))
+#4 C:\wamp64\www\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\markell-services\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\m...')
+#7 {main}
+CRITICAL - 2022-04-07 17:42:35 --> file_get_contents(images/): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\wamp64\\www\\m...', 30, Array)
+#1 C:\wamp64\www\markell-services\app\Controllers\Image.php(30): file_get_contents('images/')
+#2 C:\wamp64\www\markell-services\system\CodeIgniter.php(832): App\Controllers\Image->show('1349', 'product')
+#3 C:\wamp64\www\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Image))
+#4 C:\wamp64\www\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\markell-services\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\m...')
+#7 {main}
+CRITICAL - 2022-04-07 17:44:59 --> file_get_contents(images/): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\wamp64\\www\\m...', 31, Array)
+#1 C:\wamp64\www\markell-services\app\Controllers\Image.php(31): file_get_contents('images/')
+#2 C:\wamp64\www\markell-services\system\CodeIgniter.php(832): App\Controllers\Image->show('1348', 'product')
+#3 C:\wamp64\www\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Image))
+#4 C:\wamp64\www\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\markell-services\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\m...')
+#7 {main}
+CRITICAL - 2022-04-07 17:44:59 --> file_get_contents(images/): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\wamp64\\www\\m...', 31, Array)
+#1 C:\wamp64\www\markell-services\app\Controllers\Image.php(31): file_get_contents('images/')
+#2 C:\wamp64\www\markell-services\system\CodeIgniter.php(832): App\Controllers\Image->show('1349', 'product')
+#3 C:\wamp64\www\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Image))
+#4 C:\wamp64\www\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\markell-services\public\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\m...')
+#7 {main}

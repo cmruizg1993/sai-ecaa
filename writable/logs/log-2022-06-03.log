@@ -1,0 +1,7 @@
+CRITICAL - 2022-06-03 16:01:11 --> Call to undefined function App\Controllers\encrypt()
+#0 C:\Markell\markell-services\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#1 C:\Markell\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 C:\Markell\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Markell\markell-services\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#4 C:\Markell\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\Markell\\mark...')
+#5 {main}

@@ -1,0 +1,45 @@
+ERROR - 2022-04-18 12:53:11 --> Unknown column 'id_cliente' in 'where clause'
+CRITICAL - 2022-04-18 12:53:11 --> Unknown column 'id_cliente' in 'where clause'
+#0 C:\Markell\markell-services\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Markell\markell-services\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Markell\markell-services\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Markell\markell-services\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Markell\markell-services\app\Models\VehicleModel.php(25): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Markell\markell-services\app\Controllers\Vehicle.php(14): App\Models\VehicleModel->getVehiclesByClientOrPlaque('ABCD-12')
+#6 C:\Markell\markell-services\system\CodeIgniter.php(832): App\Controllers\Vehicle->search('ABCD-12')
+#7 C:\Markell\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#8 C:\Markell\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Markell\markell-services\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#10 C:\Markell\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\Markell\\mark...')
+#11 {main}
+CRITICAL - 2022-04-18 12:57:45 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getCompiledSelect()
+#0 C:\Markell\markell-services\app\Controllers\Vehicle.php(14): App\Models\VehicleModel->getVehiclesByClientOrPlaque('ABCD-12')
+#1 C:\Markell\markell-services\system\CodeIgniter.php(832): App\Controllers\Vehicle->search('ABCD-12')
+#2 C:\Markell\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#3 C:\Markell\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Markell\markell-services\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#5 C:\Markell\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\Markell\\mark...')
+#6 {main}
+CRITICAL - 2022-04-18 12:57:48 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getCompiledSelect()
+#0 C:\Markell\markell-services\app\Controllers\Vehicle.php(14): App\Models\VehicleModel->getVehiclesByClientOrPlaque('ABCD-12')
+#1 C:\Markell\markell-services\system\CodeIgniter.php(832): App\Controllers\Vehicle->search('ABCD-12')
+#2 C:\Markell\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#3 C:\Markell\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Markell\markell-services\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#5 C:\Markell\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\Markell\\mark...')
+#6 {main}
+CRITICAL - 2022-04-18 13:22:44 --> Call to undefined method App\Entities\Client::first()
+#0 C:\Markell\markell-services\system\CodeIgniter.php(832): App\Controllers\Vehicle->search('ABCD-12')
+#1 C:\Markell\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#2 C:\Markell\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Markell\markell-services\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#4 C:\Markell\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\Markell\\mark...')
+#5 {main}
+CRITICAL - 2022-04-18 13:23:51 --> Trying to get property 'client_id' of non-object
+#0 C:\Markell\markell-services\app\Controllers\Vehicle.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\Markell\\mark...', 30, Array)
+#1 C:\Markell\markell-services\system\CodeIgniter.php(832): App\Controllers\Vehicle->search('1714506324')
+#2 C:\Markell\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicle))
+#3 C:\Markell\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Markell\markell-services\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#5 C:\Markell\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\Markell\\mark...')
+#6 {main}

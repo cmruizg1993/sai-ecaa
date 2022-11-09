@@ -1,0 +1,17 @@
+ERROR - 2022-05-20 17:27:04 --> Column 'telefono' cannot be null
+CRITICAL - 2022-05-20 17:27:04 --> Column 'telefono' cannot be null
+#0 C:\Markell\markell-services\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `cl...', 0)
+#1 C:\Markell\markell-services\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cl...')
+#2 C:\Markell\markell-services\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cl...')
+#3 C:\Markell\markell-services\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cl...', Array, false)
+#4 C:\Markell\markell-services\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Markell\markell-services\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\Markell\markell-services\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Markell\markell-services\system\BaseModel.php(658): CodeIgniter\Model->insert(Object(App\Entities\Client), false)
+#8 C:\Markell\markell-services\app\Controllers\Client.php(39): CodeIgniter\BaseModel->save(Object(App\Entities\Client))
+#9 C:\Markell\markell-services\system\CodeIgniter.php(832): App\Controllers\Client->create()
+#10 C:\Markell\markell-services\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+#11 C:\Markell\markell-services\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Markell\markell-services\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#13 C:\Markell\markell-services\system\Commands\Server\rewrite.php(43): require_once('C:\\Markell\\mark...')
+#14 {main}

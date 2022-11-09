@@ -1,0 +1,181 @@
+ERROR - 2022-09-15 11:33:35 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2022-09-15 11:33:35 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 C:\AndresDavila\saac-api\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\AndresDavila\saac-api\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\AndresDavila\saac-api\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\AndresDavila\saac-api\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\AndresDavila\saac-api\app\Controllers\Login.php(22): CodeIgniter\BaseModel->first()
+#5 C:\AndresDavila\saac-api\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#6 C:\AndresDavila\saac-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\AndresDavila\saac-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\AndresDavila\saac-api\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#9 C:\AndresDavila\saac-api\system\Commands\Server\rewrite.php(43): require_once('C:\\AndresDavila...')
+#10 {main}
+ERROR - 2022-09-15 11:34:49 --> Error connecting to the database: Unknown database 'alimcosys_alimcosys'
+CRITICAL - 2022-09-15 11:34:49 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'alimcosys_alimcosys'
+#0 C:\AndresDavila\saac-api\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\AndresDavila\saac-api\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\AndresDavila\saac-api\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\AndresDavila\saac-api\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\AndresDavila\saac-api\app\Controllers\Login.php(22): CodeIgniter\BaseModel->first()
+#5 C:\AndresDavila\saac-api\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#6 C:\AndresDavila\saac-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\AndresDavila\saac-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\AndresDavila\saac-api\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#9 C:\AndresDavila\saac-api\system\Commands\Server\rewrite.php(43): require_once('C:\\AndresDavila...')
+#10 {main}
+CRITICAL - 2022-09-15 15:28:39 --> Undefined property: stdClass::$company_id
+#0 C:\AndresDavila\saac-api\app\Controllers\Measurement.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\AndresDavila...', 22, Array)
+#1 C:\AndresDavila\saac-api\system\CodeIgniter.php(832): App\Controllers\Measurement->index()
+#2 C:\AndresDavila\saac-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Measurement))
+#3 C:\AndresDavila\saac-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\AndresDavila\saac-api\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#5 C:\AndresDavila\saac-api\system\Commands\Server\rewrite.php(43): require_once('C:\\AndresDavila...')
+#6 {main}
+ERROR - 2022-09-15 15:37:23 --> Column 'MED_FECHA_HORA' cannot be null
+CRITICAL - 2022-09-15 15:37:23 --> Column 'MED_FECHA_HORA' cannot be null
+#0 C:\AndresDavila\saac-api\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `t_...', 0)
+#1 C:\AndresDavila\saac-api\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `t_...')
+#2 C:\AndresDavila\saac-api\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `t_...')
+#3 C:\AndresDavila\saac-api\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `t_...', Array, false)
+#4 C:\AndresDavila\saac-api\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\AndresDavila\saac-api\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\AndresDavila\saac-api\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\AndresDavila\saac-api\system\BaseModel.php(658): CodeIgniter\Model->insert(Object(App\Entities\Measurement), false)
+#8 C:\AndresDavila\saac-api\app\Controllers\Measurement.php(36): CodeIgniter\BaseModel->save(Object(App\Entities\Measurement))
+#9 C:\AndresDavila\saac-api\system\CodeIgniter.php(832): App\Controllers\Measurement->create()
+#10 C:\AndresDavila\saac-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Measurement))
+#11 C:\AndresDavila\saac-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\AndresDavila\saac-api\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#13 C:\AndresDavila\saac-api\system\Commands\Server\rewrite.php(43): require_once('C:\\AndresDavila...')
+#14 {main}
+CRITICAL - 2022-09-15 16:08:05 --> Invalid service account: firebase_credentials.json can not be read: SplFileObject::__construct(firebase_credentials.json): failed to open stream: No such file or directory
+#0 C:\AndresDavila\saac-api\vendor\kreait\firebase-php\src\Firebase\Factory.php(141): Kreait\Firebase\ServiceAccount::fromValue('firebase_creden...')
+#1 C:\AndresDavila\saac-api\app\Controllers\Measurement.php(37): Kreait\Firebase\Factory->withServiceAccount('firebase_creden...')
+#2 C:\AndresDavila\saac-api\system\CodeIgniter.php(832): App\Controllers\Measurement->create()
+#3 C:\AndresDavila\saac-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Measurement))
+#4 C:\AndresDavila\saac-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\AndresDavila\saac-api\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#6 C:\AndresDavila\saac-api\system\Commands\Server\rewrite.php(43): require_once('C:\\AndresDavila...')
+#7 {main}
+CRITICAL - 2022-09-15 16:09:10 --> Invalid service account: firebase_credentials.json can not be read: SplFileObject::__construct(firebase_credentials.json): failed to open stream: No such file or directory
+#0 C:\AndresDavila\saac-api\vendor\kreait\firebase-php\src\Firebase\Factory.php(141): Kreait\Firebase\ServiceAccount::fromValue('firebase_creden...')
+#1 C:\AndresDavila\saac-api\app\Controllers\Measurement.php(37): Kreait\Firebase\Factory->withServiceAccount('firebase_creden...')
+#2 C:\AndresDavila\saac-api\system\CodeIgniter.php(832): App\Controllers\Measurement->create()
+#3 C:\AndresDavila\saac-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Measurement))
+#4 C:\AndresDavila\saac-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\AndresDavila\saac-api\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#6 C:\AndresDavila\saac-api\system\Commands\Server\rewrite.php(43): require_once('C:\\AndresDavila...')
+#7 {main}
+CRITICAL - 2022-09-15 16:11:41 --> A non-numeric value encountered
+#0 C:\AndresDavila\saac-api\app\Controllers\Measurement.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\AndresDavila...', 37, Array)
+#1 C:\AndresDavila\saac-api\system\CodeIgniter.php(832): App\Controllers\Measurement->create()
+#2 C:\AndresDavila\saac-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Measurement))
+#3 C:\AndresDavila\saac-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\AndresDavila\saac-api\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#5 C:\AndresDavila\saac-api\system\Commands\Server\rewrite.php(43): require_once('C:\\AndresDavila...')
+#6 {main}
+CRITICAL - 2022-09-15 16:11:54 --> Invalid service account: C:\AndresDavila\saac-api\public\firebase_credentials.json can not be read: SplFileObject::__construct(C:\AndresDavila\saac-api\public\firebase_credentials.json): failed to open stream: No such file or directory
+#0 C:\AndresDavila\saac-api\vendor\kreait\firebase-php\src\Firebase\Factory.php(141): Kreait\Firebase\ServiceAccount::fromValue('C:\\AndresDavila...')
+#1 C:\AndresDavila\saac-api\app\Controllers\Measurement.php(37): Kreait\Firebase\Factory->withServiceAccount('C:\\AndresDavila...')
+#2 C:\AndresDavila\saac-api\system\CodeIgniter.php(832): App\Controllers\Measurement->create()
+#3 C:\AndresDavila\saac-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Measurement))
+#4 C:\AndresDavila\saac-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\AndresDavila\saac-api\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#6 C:\AndresDavila\saac-api\system\Commands\Server\rewrite.php(43): require_once('C:\\AndresDavila...')
+#7 {main}
+CRITICAL - 2022-09-15 16:12:53 --> Invalid service account: C:\AndresDavila\saac-api\app\firebase_credentials.json can not be read: SplFileObject::__construct(C:\AndresDavila\saac-api\app\firebase_credentials.json): failed to open stream: No such file or directory
+#0 C:\AndresDavila\saac-api\vendor\kreait\firebase-php\src\Firebase\Factory.php(141): Kreait\Firebase\ServiceAccount::fromValue('C:\\AndresDavila...')
+#1 C:\AndresDavila\saac-api\app\Controllers\Measurement.php(37): Kreait\Firebase\Factory->withServiceAccount('C:\\AndresDavila...')
+#2 C:\AndresDavila\saac-api\system\CodeIgniter.php(832): App\Controllers\Measurement->create()
+#3 C:\AndresDavila\saac-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Measurement))
+#4 C:\AndresDavila\saac-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\AndresDavila\saac-api\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#6 C:\AndresDavila\saac-api\system\Commands\Server\rewrite.php(43): require_once('C:\\AndresDavila...')
+#7 {main}
+CRITICAL - 2022-09-15 16:14:18 --> cURL error 60: SSL certificate problem: unable to get local issuer certificate (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://oauth2.googleapis.com/token
+#0 C:\AndresDavila\saac-api\vendor\kreait\firebase-php\src\Firebase\Exception\DatabaseApiExceptionConverter.php(34): Kreait\Firebase\Exception\DatabaseApiExceptionConverter->convertGuzzleRequestException(Object(GuzzleHttp\Exception\RequestException))
+#1 C:\AndresDavila\saac-api\vendor\kreait\firebase-php\src\Firebase\Database\ApiClient.php(194): Kreait\Firebase\Exception\DatabaseApiExceptionConverter->convertException(Object(GuzzleHttp\Exception\RequestException))
+#2 C:\AndresDavila\saac-api\vendor\kreait\firebase-php\src\Firebase\Database\ApiClient.php(86): Kreait\Firebase\Database\ApiClient->requestApi('PUT', Object(GuzzleHttp\Psr7\Uri), Array)
+#3 C:\AndresDavila\saac-api\vendor\kreait\firebase-php\src\Firebase\Database\Reference.php(293): Kreait\Firebase\Database\ApiClient->set(Object(GuzzleHttp\Psr7\Uri), Array)
+#4 C:\AndresDavila\saac-api\app\Controllers\Measurement.php(44): Kreait\Firebase\Database\Reference->set(Array)
+#5 C:\AndresDavila\saac-api\system\CodeIgniter.php(832): App\Controllers\Measurement->create()
+#6 C:\AndresDavila\saac-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Measurement))
+#7 C:\AndresDavila\saac-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\AndresDavila\saac-api\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#9 C:\AndresDavila\saac-api\system\Commands\Server\rewrite.php(43): require_once('C:\\AndresDavila...')
+#10 {main}
+CRITICAL - 2022-09-15 16:22:28 --> cURL error 60: SSL certificate problem: unable to get local issuer certificate (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://oauth2.googleapis.com/token
+#0 C:\AndresDavila\saac-api\vendor\kreait\firebase-php\src\Firebase\Exception\DatabaseApiExceptionConverter.php(34): Kreait\Firebase\Exception\DatabaseApiExceptionConverter->convertGuzzleRequestException(Object(GuzzleHttp\Exception\RequestException))
+#1 C:\AndresDavila\saac-api\vendor\kreait\firebase-php\src\Firebase\Database\ApiClient.php(194): Kreait\Firebase\Exception\DatabaseApiExceptionConverter->convertException(Object(GuzzleHttp\Exception\RequestException))
+#2 C:\AndresDavila\saac-api\vendor\kreait\firebase-php\src\Firebase\Database\ApiClient.php(86): Kreait\Firebase\Database\ApiClient->requestApi('PUT', Object(GuzzleHttp\Psr7\Uri), Array)
+#3 C:\AndresDavila\saac-api\vendor\kreait\firebase-php\src\Firebase\Database\Reference.php(293): Kreait\Firebase\Database\ApiClient->set(Object(GuzzleHttp\Psr7\Uri), Array)
+#4 C:\AndresDavila\saac-api\app\Controllers\Measurement.php(44): Kreait\Firebase\Database\Reference->set(Array)
+#5 C:\AndresDavila\saac-api\system\CodeIgniter.php(832): App\Controllers\Measurement->create()
+#6 C:\AndresDavila\saac-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Measurement))
+#7 C:\AndresDavila\saac-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\AndresDavila\saac-api\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#9 C:\AndresDavila\saac-api\system\Commands\Server\rewrite.php(43): require_once('C:\\AndresDavila...')
+#10 {main}
+CRITICAL - 2022-09-15 16:41:17 --> cURL error 60: SSL certificate problem: unable to get local issuer certificate (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://oauth2.googleapis.com/token
+#0 C:\AndresDavila\saac-api\vendor\kreait\firebase-php\src\Firebase\Exception\DatabaseApiExceptionConverter.php(34): Kreait\Firebase\Exception\DatabaseApiExceptionConverter->convertGuzzleRequestException(Object(GuzzleHttp\Exception\RequestException))
+#1 C:\AndresDavila\saac-api\vendor\kreait\firebase-php\src\Firebase\Database\ApiClient.php(194): Kreait\Firebase\Exception\DatabaseApiExceptionConverter->convertException(Object(GuzzleHttp\Exception\RequestException))
+#2 C:\AndresDavila\saac-api\vendor\kreait\firebase-php\src\Firebase\Database\ApiClient.php(86): Kreait\Firebase\Database\ApiClient->requestApi('PUT', Object(GuzzleHttp\Psr7\Uri), Array)
+#3 C:\AndresDavila\saac-api\vendor\kreait\firebase-php\src\Firebase\Database\Reference.php(293): Kreait\Firebase\Database\ApiClient->set(Object(GuzzleHttp\Psr7\Uri), Array)
+#4 C:\AndresDavila\saac-api\app\Controllers\Measurement.php(44): Kreait\Firebase\Database\Reference->set(Array)
+#5 C:\AndresDavila\saac-api\system\CodeIgniter.php(832): App\Controllers\Measurement->create()
+#6 C:\AndresDavila\saac-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Measurement))
+#7 C:\AndresDavila\saac-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\AndresDavila\saac-api\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#9 C:\AndresDavila\saac-api\system\Commands\Server\rewrite.php(43): require_once('C:\\AndresDavila...')
+#10 {main}
+CRITICAL - 2022-09-15 16:45:30 --> cURL error 60: SSL certificate problem: unable to get local issuer certificate (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://oauth2.googleapis.com/token
+#0 C:\AndresDavila\saac-api\vendor\kreait\firebase-php\src\Firebase\Exception\DatabaseApiExceptionConverter.php(34): Kreait\Firebase\Exception\DatabaseApiExceptionConverter->convertGuzzleRequestException(Object(GuzzleHttp\Exception\RequestException))
+#1 C:\AndresDavila\saac-api\vendor\kreait\firebase-php\src\Firebase\Database\ApiClient.php(194): Kreait\Firebase\Exception\DatabaseApiExceptionConverter->convertException(Object(GuzzleHttp\Exception\RequestException))
+#2 C:\AndresDavila\saac-api\vendor\kreait\firebase-php\src\Firebase\Database\ApiClient.php(86): Kreait\Firebase\Database\ApiClient->requestApi('PUT', Object(GuzzleHttp\Psr7\Uri), Array)
+#3 C:\AndresDavila\saac-api\vendor\kreait\firebase-php\src\Firebase\Database\Reference.php(293): Kreait\Firebase\Database\ApiClient->set(Object(GuzzleHttp\Psr7\Uri), Array)
+#4 C:\AndresDavila\saac-api\app\Controllers\Measurement.php(44): Kreait\Firebase\Database\Reference->set(Array)
+#5 C:\AndresDavila\saac-api\system\CodeIgniter.php(832): App\Controllers\Measurement->create()
+#6 C:\AndresDavila\saac-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Measurement))
+#7 C:\AndresDavila\saac-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\AndresDavila\saac-api\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#9 C:\AndresDavila\saac-api\system\Commands\Server\rewrite.php(43): require_once('C:\\AndresDavila...')
+#10 {main}
+CRITICAL - 2022-09-15 16:52:05 --> cURL error 60: SSL certificate problem: unable to get local issuer certificate (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://oauth2.googleapis.com/token
+#0 C:\AndresDavila\saac-api\vendor\kreait\firebase-php\src\Firebase\Exception\DatabaseApiExceptionConverter.php(34): Kreait\Firebase\Exception\DatabaseApiExceptionConverter->convertGuzzleRequestException(Object(GuzzleHttp\Exception\RequestException))
+#1 C:\AndresDavila\saac-api\vendor\kreait\firebase-php\src\Firebase\Database\ApiClient.php(194): Kreait\Firebase\Exception\DatabaseApiExceptionConverter->convertException(Object(GuzzleHttp\Exception\RequestException))
+#2 C:\AndresDavila\saac-api\vendor\kreait\firebase-php\src\Firebase\Database\ApiClient.php(86): Kreait\Firebase\Database\ApiClient->requestApi('PUT', Object(GuzzleHttp\Psr7\Uri), Array)
+#3 C:\AndresDavila\saac-api\vendor\kreait\firebase-php\src\Firebase\Database\Reference.php(293): Kreait\Firebase\Database\ApiClient->set(Object(GuzzleHttp\Psr7\Uri), Array)
+#4 C:\AndresDavila\saac-api\app\Controllers\Measurement.php(44): Kreait\Firebase\Database\Reference->set(Array)
+#5 C:\AndresDavila\saac-api\system\CodeIgniter.php(832): App\Controllers\Measurement->create()
+#6 C:\AndresDavila\saac-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Measurement))
+#7 C:\AndresDavila\saac-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\AndresDavila\saac-api\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#9 C:\AndresDavila\saac-api\system\Commands\Server\rewrite.php(43): require_once('C:\\AndresDavila...')
+#10 {main}
+CRITICAL - 2022-09-15 17:02:15 --> cURL error 60: SSL certificate problem: unable to get local issuer certificate (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://oauth2.googleapis.com/token
+#0 C:\AndresDavila\saac-api\vendor\kreait\firebase-php\src\Firebase\Exception\DatabaseApiExceptionConverter.php(34): Kreait\Firebase\Exception\DatabaseApiExceptionConverter->convertGuzzleRequestException(Object(GuzzleHttp\Exception\RequestException))
+#1 C:\AndresDavila\saac-api\vendor\kreait\firebase-php\src\Firebase\Database\ApiClient.php(194): Kreait\Firebase\Exception\DatabaseApiExceptionConverter->convertException(Object(GuzzleHttp\Exception\RequestException))
+#2 C:\AndresDavila\saac-api\vendor\kreait\firebase-php\src\Firebase\Database\ApiClient.php(86): Kreait\Firebase\Database\ApiClient->requestApi('PUT', Object(GuzzleHttp\Psr7\Uri), Array)
+#3 C:\AndresDavila\saac-api\vendor\kreait\firebase-php\src\Firebase\Database\Reference.php(293): Kreait\Firebase\Database\ApiClient->set(Object(GuzzleHttp\Psr7\Uri), Array)
+#4 C:\AndresDavila\saac-api\app\Controllers\Measurement.php(44): Kreait\Firebase\Database\Reference->set(Array)
+#5 C:\AndresDavila\saac-api\system\CodeIgniter.php(832): App\Controllers\Measurement->create()
+#6 C:\AndresDavila\saac-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Measurement))
+#7 C:\AndresDavila\saac-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\AndresDavila\saac-api\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#9 C:\AndresDavila\saac-api\system\Commands\Server\rewrite.php(43): require_once('C:\\AndresDavila...')
+#10 {main}
+CRITICAL - 2022-09-15 17:02:30 --> cURL error 60: SSL certificate problem: unable to get local issuer certificate (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://oauth2.googleapis.com/token
+#0 C:\AndresDavila\saac-api\vendor\kreait\firebase-php\src\Firebase\Exception\DatabaseApiExceptionConverter.php(34): Kreait\Firebase\Exception\DatabaseApiExceptionConverter->convertGuzzleRequestException(Object(GuzzleHttp\Exception\RequestException))
+#1 C:\AndresDavila\saac-api\vendor\kreait\firebase-php\src\Firebase\Database\ApiClient.php(194): Kreait\Firebase\Exception\DatabaseApiExceptionConverter->convertException(Object(GuzzleHttp\Exception\RequestException))
+#2 C:\AndresDavila\saac-api\vendor\kreait\firebase-php\src\Firebase\Database\ApiClient.php(86): Kreait\Firebase\Database\ApiClient->requestApi('PUT', Object(GuzzleHttp\Psr7\Uri), Array)
+#3 C:\AndresDavila\saac-api\vendor\kreait\firebase-php\src\Firebase\Database\Reference.php(293): Kreait\Firebase\Database\ApiClient->set(Object(GuzzleHttp\Psr7\Uri), Array)
+#4 C:\AndresDavila\saac-api\app\Controllers\Measurement.php(44): Kreait\Firebase\Database\Reference->set(Array)
+#5 C:\AndresDavila\saac-api\system\CodeIgniter.php(832): App\Controllers\Measurement->create()
+#6 C:\AndresDavila\saac-api\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Measurement))
+#7 C:\AndresDavila\saac-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\AndresDavila\saac-api\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#9 C:\AndresDavila\saac-api\system\Commands\Server\rewrite.php(43): require_once('C:\\AndresDavila...')
+#10 {main}

@@ -1,0 +1,14 @@
+CRITICAL - 2022-09-22 01:19:35 --> syntax error, unexpected '$model' (T_VARIABLE)
+#0 C:\wamp64\www\saac-api\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('measurement/cre...')
+#1 C:\wamp64\www\saac-api\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('measurement/cre...')
+#2 C:\wamp64\www\saac-api\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\saac-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\saac-api\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-22 01:19:41 --> syntax error, unexpected '$model' (T_VARIABLE)
+#0 C:\wamp64\www\saac-api\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('measurement/cre...')
+#1 C:\wamp64\www\saac-api\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('measurement/cre...')
+#2 C:\wamp64\www\saac-api\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\saac-api\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\saac-api\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
