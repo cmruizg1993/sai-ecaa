@@ -1,0 +1,202 @@
+ERROR - 2022-11-09 16:54:16 --> Error connecting to the database: No such file or directory
+CRITICAL - 2022-11-09 16:54:16 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /var/www/php-project/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/php-project/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /var/www/php-project/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/php-project/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 /var/www/php-project/app/Controllers/Login.php(22): CodeIgniter\BaseModel->first()
+#5 /var/www/php-project/system/CodeIgniter.php(832): App\Controllers\Login->index()
+#6 /var/www/php-project/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 /var/www/php-project/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/php-project/public/index.php(39): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-11-09 16:55:09 --> Error connecting to the database: No such file or directory
+CRITICAL - 2022-11-09 16:55:09 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /var/www/php-project/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/php-project/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /var/www/php-project/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/php-project/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 /var/www/php-project/app/Controllers/Login.php(22): CodeIgniter\BaseModel->first()
+#5 /var/www/php-project/system/CodeIgniter.php(832): App\Controllers\Login->index()
+#6 /var/www/php-project/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 /var/www/php-project/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/php-project/public/index.php(39): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-11-09 16:56:17 --> Error connecting to the database: Connection refused
+CRITICAL - 2022-11-09 16:56:17 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /var/www/php-project/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/php-project/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /var/www/php-project/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/php-project/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 /var/www/php-project/app/Controllers/Login.php(22): CodeIgniter\BaseModel->first()
+#5 /var/www/php-project/system/CodeIgniter.php(832): App\Controllers\Login->index()
+#6 /var/www/php-project/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 /var/www/php-project/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/php-project/public/index.php(39): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-11-09 16:59:18 --> Error connecting to the database: Connection refused
+CRITICAL - 2022-11-09 16:59:18 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /var/www/php-project/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/php-project/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /var/www/php-project/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/php-project/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 /var/www/php-project/app/Controllers/Login.php(22): CodeIgniter\BaseModel->first()
+#5 /var/www/php-project/system/CodeIgniter.php(832): App\Controllers\Login->index()
+#6 /var/www/php-project/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 /var/www/php-project/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/php-project/public/index.php(39): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-11-09 17:00:01 --> Error connecting to the database: Connection refused
+CRITICAL - 2022-11-09 17:00:01 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /var/www/php-project/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/php-project/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /var/www/php-project/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/php-project/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 /var/www/php-project/app/Controllers/Login.php(22): CodeIgniter\BaseModel->first()
+#5 /var/www/php-project/system/CodeIgniter.php(832): App\Controllers\Login->index()
+#6 /var/www/php-project/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 /var/www/php-project/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/php-project/public/index.php(39): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-11-09 17:01:35 --> Error connecting to the database: Connection refused
+CRITICAL - 2022-11-09 17:01:35 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /var/www/php-project/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/php-project/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /var/www/php-project/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/php-project/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 /var/www/php-project/app/Controllers/Login.php(22): CodeIgniter\BaseModel->first()
+#5 /var/www/php-project/system/CodeIgniter.php(832): App\Controllers\Login->index()
+#6 /var/www/php-project/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 /var/www/php-project/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/php-project/public/index.php(39): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-11-09 17:14:55 --> Error connecting to the database: Connection refused
+CRITICAL - 2022-11-09 17:14:55 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /var/www/php-project/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/php-project/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /var/www/php-project/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/php-project/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 /var/www/php-project/app/Controllers/Login.php(22): CodeIgniter\BaseModel->first()
+#5 /var/www/php-project/system/CodeIgniter.php(832): App\Controllers\Login->index()
+#6 /var/www/php-project/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 /var/www/php-project/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/php-project/public/index.php(39): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-11-09 17:15:22 --> Error connecting to the database: Connection refused
+CRITICAL - 2022-11-09 17:15:22 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /var/www/php-project/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/php-project/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /var/www/php-project/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/php-project/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 /var/www/php-project/app/Controllers/Login.php(22): CodeIgniter\BaseModel->first()
+#5 /var/www/php-project/system/CodeIgniter.php(832): App\Controllers\Login->index()
+#6 /var/www/php-project/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 /var/www/php-project/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/php-project/public/index.php(39): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-11-09 17:17:13 --> Error connecting to the database: Connection refused
+CRITICAL - 2022-11-09 17:17:13 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /var/www/php-project/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/php-project/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /var/www/php-project/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/php-project/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 /var/www/php-project/app/Controllers/Login.php(22): CodeIgniter\BaseModel->first()
+#5 /var/www/php-project/system/CodeIgniter.php(832): App\Controllers\Login->index()
+#6 /var/www/php-project/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 /var/www/php-project/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/php-project/public/index.php(39): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-09 22:17:54 --> Allowed fields must be specified for model: App\Models\CropModel
+#0 /var/www/php-project/system/BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Crop...')
+#1 /var/www/php-project/system/BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 /var/www/php-project/system/Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#3 /var/www/php-project/system/BaseModel.php(658): CodeIgniter\Model->insert(Object(App\Entities\Crop), false)
+#4 /var/www/php-project/app/Controllers/Crop.php(17): CodeIgniter\BaseModel->save(Object(App\Entities\Crop))
+#5 /var/www/php-project/system/CodeIgniter.php(832): App\Controllers\Crop->create()
+#6 /var/www/php-project/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crop))
+#7 /var/www/php-project/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/php-project/public/index.php(39): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-11-09 22:35:46 --> Error connecting to the database: php_network_getaddresses: getaddrinfo failed: Host desconocido. 
+CRITICAL - 2022-11-09 22:35:46 --> Unable to connect to the database.
+Main connection [MySQLi]: php_network_getaddresses: getaddrinfo failed: Host desconocido. 
+#0 C:\symfony-docker\php-project\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\symfony-docker\php-project\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `t_...', Array, false)
+#2 C:\symfony-docker\php-project\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#3 C:\symfony-docker\php-project\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#4 C:\symfony-docker\php-project\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#5 C:\symfony-docker\php-project\system\BaseModel.php(658): CodeIgniter\Model->insert(Object(App\Entities\Crop), false)
+#6 C:\symfony-docker\php-project\app\Controllers\Crop.php(17): CodeIgniter\BaseModel->save(Object(App\Entities\Crop))
+#7 C:\symfony-docker\php-project\system\CodeIgniter.php(832): App\Controllers\Crop->create()
+#8 C:\symfony-docker\php-project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crop))
+#9 C:\symfony-docker\php-project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\symfony-docker\php-project\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#11 C:\symfony-docker\php-project\system\Commands\Server\rewrite.php(43): require_once('C:\\symfony-dock...')
+#12 {main}
+ERROR - 2022-11-09 23:01:16 --> Unknown column 't_cultivos.id' in 'where clause'
+CRITICAL - 2022-11-09 23:01:16 --> Unknown column 't_cultivos.id' in 'where clause'
+#0 C:\symfony-docker\php-project\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `t_culti...', 0)
+#1 C:\symfony-docker\php-project\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `t_culti...')
+#2 C:\symfony-docker\php-project\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `t_culti...')
+#3 C:\symfony-docker\php-project\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `t_culti...', Array, false)
+#4 C:\symfony-docker\php-project\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\symfony-docker\php-project\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\symfony-docker\php-project\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\symfony-docker\php-project\app\Controllers\Crop.php(34): CodeIgniter\Model->update('1', Object(App\Entities\Crop))
+#8 C:\symfony-docker\php-project\system\CodeIgniter.php(832): App\Controllers\Crop->update('1')
+#9 C:\symfony-docker\php-project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crop))
+#10 C:\symfony-docker\php-project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\symfony-docker\php-project\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#12 C:\symfony-docker\php-project\system\Commands\Server\rewrite.php(43): require_once('C:\\symfony-dock...')
+#13 {main}
+CRITICAL - 2022-11-09 23:09:59 --> Return value of CodeIgniter\BaseModel::transformDataToArray() must be of the type array, string returned
+#0 C:\symfony-docker\php-project\system\BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray('88', 'insert')
+#1 C:\symfony-docker\php-project\system\Model.php(625): CodeIgniter\BaseModel->insert('88', false)
+#2 C:\symfony-docker\php-project\system\BaseModel.php(658): CodeIgniter\Model->insert('88', false)
+#3 C:\symfony-docker\php-project\app\Controllers\Crop.php(34): CodeIgniter\BaseModel->save('88', Object(App\Entities\Crop))
+#4 C:\symfony-docker\php-project\system\CodeIgniter.php(832): App\Controllers\Crop->update('88')
+#5 C:\symfony-docker\php-project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crop))
+#6 C:\symfony-docker\php-project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\symfony-docker\php-project\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#8 C:\symfony-docker\php-project\system\Commands\Server\rewrite.php(43): require_once('C:\\symfony-dock...')
+#9 {main}
+CRITICAL - 2022-11-09 23:11:39 --> Array to string conversion
+#0 C:\symfony-docker\php-project\app\Controllers\Crop.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\symfony-dock...', 32, Array)
+#1 C:\symfony-docker\php-project\system\CodeIgniter.php(832): App\Controllers\Crop->update('88')
+#2 C:\symfony-docker\php-project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crop))
+#3 C:\symfony-docker\php-project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\symfony-docker\php-project\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#5 C:\symfony-docker\php-project\system\Commands\Server\rewrite.php(43): require_once('C:\\symfony-dock...')
+#6 {main}
+CRITICAL - 2022-11-09 23:12:08 --> Return value of CodeIgniter\BaseModel::transformDataToArray() must be of the type array, string returned
+#0 C:\symfony-docker\php-project\system\BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray('88', 'insert')
+#1 C:\symfony-docker\php-project\system\Model.php(625): CodeIgniter\BaseModel->insert('88', false)
+#2 C:\symfony-docker\php-project\system\BaseModel.php(658): CodeIgniter\Model->insert('88', false)
+#3 C:\symfony-docker\php-project\app\Controllers\Crop.php(34): CodeIgniter\BaseModel->save('88', Object(App\Entities\Crop))
+#4 C:\symfony-docker\php-project\system\CodeIgniter.php(832): App\Controllers\Crop->update('88')
+#5 C:\symfony-docker\php-project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crop))
+#6 C:\symfony-docker\php-project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\symfony-docker\php-project\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#8 C:\symfony-docker\php-project\system\Commands\Server\rewrite.php(43): require_once('C:\\symfony-dock...')
+#9 {main}
+CRITICAL - 2022-11-09 23:21:47 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-11-09 23:22:05 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-11-09 23:25:36 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-11-09 23:25:46 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

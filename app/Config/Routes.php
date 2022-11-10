@@ -31,17 +31,12 @@ $routes->setAutoRoute(true);
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->resource('category', ['filter' => 'authFilter']);
-$routes->resource('image', ['filter' => 'authFilter']);
-$routes->resource('product', ['filter' => 'authFilter']);
 $routes->resource('client', ['filter' => 'authFilter']);
 $routes->resource('vehicle', ['filter' => 'authFilter']);
-$routes->resource('vehicledetails', ['filter' => 'authFilter']);
-$routes->resource('entryvehiculo', ['filter' => 'authFilter']);
-$routes->resource('workorder', ['filter' => 'authFilter']);
-$routes->resource('provider', ['filter' => 'authFilter']);
-$routes->resource('clientOrder', ['filter' => 'authFilter']);
 $routes->resource('measurement', ['filter' => 'authFilter']);
+$routes->resource('crop', ['filter' => 'authFilter']);
+$routes->resource('cropcycle', ['filter' => 'authFilter']);
+$routes->resource('greenhouse', ['filter' => 'authFilter']);
 $routes->post("login", "Login::index");
 /*
 $routes->group("", function ($routes) {
