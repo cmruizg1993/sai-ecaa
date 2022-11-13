@@ -3,7 +3,10 @@
 namespace App\Models;
 
 use CodeIgniter\Model;
-
+/*
+* @method \App\Entities\Crop find($id = null)
+ * @method \App\Entities\Crop [] findAll()
+*/
 class CropModel extends Model
 {
     protected $DBGroup          = 'default';

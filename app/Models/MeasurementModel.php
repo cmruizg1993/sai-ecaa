@@ -1,6 +1,7 @@
 <?php
 namespace App\Models;
 use CodeIgniter\Model;
+
 class MeasurementModel extends Model
 {
     protected $table = 't_mediciones';
@@ -14,5 +15,5 @@ class MeasurementModel extends Model
         'MED_OBSERVACIONES'
     ];
     protected $returnType    = \App\Entities\Measurement::class;
-
+    
 }

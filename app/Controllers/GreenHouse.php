@@ -3,7 +3,9 @@
 namespace App\Controllers;
 
 use App\Controllers\BaseController;
+use App\Entities\GrenHouse as GreenHouseEntity;
 use App\Models\GreenHouseModel;
+
 
 class GreenHouse extends BaseController
 {

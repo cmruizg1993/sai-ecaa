@@ -11,6 +11,7 @@ class CropCycle extends Entity
         'options'        => 'array',
         'options_object' => 'json',
         'options_array'  => 'json-array',
+        'CIC_ACTIVO' => 'boolean'
     ];
     
     protected $attributes = [

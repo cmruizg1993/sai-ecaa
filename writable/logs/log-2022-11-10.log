@@ -1,0 +1,39 @@
+CRITICAL - 2022-11-10 10:29:37 --> Cannot use object of type App\Entities\Crop as array
+#0 C:\symfony-docker\php-project\app\Controllers\GreenHouse.php(28): dataTransform(Array, Array)
+#1 C:\symfony-docker\php-project\system\CodeIgniter.php(832): App\Controllers\GreenHouse->index()
+#2 C:\symfony-docker\php-project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GreenHouse))
+#3 C:\symfony-docker\php-project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\symfony-docker\php-project\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-10 10:29:54 --> Cannot use object of type App\Entities\Crop as array
+#0 C:\symfony-docker\php-project\app\Controllers\GreenHouse.php(28): dataTransform(Array, Array)
+#1 C:\symfony-docker\php-project\system\CodeIgniter.php(832): App\Controllers\GreenHouse->index()
+#2 C:\symfony-docker\php-project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GreenHouse))
+#3 C:\symfony-docker\php-project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\symfony-docker\php-project\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#5 C:\symfony-docker\php-project\system\Commands\Server\rewrite.php(43): require_once('C:\\symfony-dock...')
+#6 {main}
+CRITICAL - 2022-11-10 10:30:49 --> Cannot use object of type App\Entities\Crop as array
+#0 C:\symfony-docker\php-project\app\Controllers\GreenHouse.php(29): dataTransform(Array, Array)
+#1 C:\symfony-docker\php-project\system\CodeIgniter.php(832): App\Controllers\GreenHouse->index()
+#2 C:\symfony-docker\php-project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GreenHouse))
+#3 C:\symfony-docker\php-project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\symfony-docker\php-project\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#5 C:\symfony-docker\php-project\system\Commands\Server\rewrite.php(43): require_once('C:\\symfony-dock...')
+#6 {main}
+CRITICAL - 2022-11-10 10:32:31 --> Cannot use object of type App\Entities\Crop as array
+#0 C:\symfony-docker\php-project\app\Controllers\GreenHouse.php(29): dataTransform(Array, Array)
+#1 C:\symfony-docker\php-project\system\CodeIgniter.php(832): App\Controllers\GreenHouse->index()
+#2 C:\symfony-docker\php-project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GreenHouse))
+#3 C:\symfony-docker\php-project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\symfony-docker\php-project\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#5 C:\symfony-docker\php-project\system\Commands\Server\rewrite.php(43): require_once('C:\\symfony-dock...')
+#6 {main}
+CRITICAL - 2022-11-10 10:33:29 --> Cannot use object of type App\Entities\Crop as array
+#0 C:\symfony-docker\php-project\app\Controllers\GreenHouse.php(29): dataTransform(Array, Array)
+#1 C:\symfony-docker\php-project\system\CodeIgniter.php(832): App\Controllers\GreenHouse->index()
+#2 C:\symfony-docker\php-project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GreenHouse))
+#3 C:\symfony-docker\php-project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\symfony-docker\php-project\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#5 C:\symfony-docker\php-project\system\Commands\Server\rewrite.php(43): require_once('C:\\symfony-dock...')
+#6 {main}

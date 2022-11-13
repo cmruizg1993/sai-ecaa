@@ -38,6 +38,7 @@ $routes->resource('crop', ['filter' => 'authFilter']);
 $routes->resource('cropcycle', ['filter' => 'authFilter']);
 $routes->resource('greenhouse', ['filter' => 'authFilter']);
 $routes->post("login", "Login::index");
+$routes->get("report/(:any)/(:any)", "Measurement::report/$1/$2", ['filter' => 'authFilter']);
 /*
 $routes->group("", function ($routes) {
     $routes->get("users", "User::index", ['filter' => 'authFilter']);

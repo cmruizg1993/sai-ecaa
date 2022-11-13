@@ -7,7 +7,7 @@ use CodeIgniter\Entity\Entity;
 class GrenHouse extends Entity
 {    
     protected $dates   = ['created_at', 'updated_at', 'deleted_at'];
-    protected $casts   = [];
+    protected $casts   = ['INV_ESTADO' => 'boolean',];
     protected $attributes = [
         'INV_CODIGO'=>null,
         'INV_DESCRIPCION'=>null,
@@ -20,4 +20,7 @@ class GrenHouse extends Entity
         'state'=>'INV_ESTADO',
         'observations'=>'INV_OBSERVACIONES',
     ];
+    function getDataMap(){
+        return $this->datamap;
+    }
 }

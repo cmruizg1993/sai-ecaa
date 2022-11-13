@@ -3,7 +3,11 @@
 namespace App\Models;
 
 use CodeIgniter\Model;
-
+/**
+ * Class GreenHouseModel
+ * @method \App\Entities\GrenHouse find($id = null)
+ * @method \App\Entities\GrenHouse [] findAll()
+ */
 class GreenHouseModel extends Model
 {
     protected $DBGroup          = 'default';
@@ -11,7 +15,7 @@ class GreenHouseModel extends Model
     protected $primaryKey       = 'INV_CODIGO';
     protected $useAutoIncrement = true;
     protected $insertID         = 0;
-    protected $returnType       = \App\Entities\Crop::class;
+    protected $returnType       = \App\Entities\GrenHouse::class;
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
     protected $allowedFields    = ['INV_CODIGO','INV_DESCRIPCION','INV_ESTADO','INV_OBSERVACIONES'];

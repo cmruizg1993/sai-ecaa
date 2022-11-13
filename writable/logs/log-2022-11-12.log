@@ -1,0 +1,25 @@
+CRITICAL - 2022-11-12 15:14:58 --> A non well formed numeric value encountered
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well form...', 'C:\\symfony-dock...', 29, Array)
+#1 C:\symfony-docker\php-project\app\Controllers\Measurement.php(29): str_split('T', '2022-11-01T00:0...')
+#2 C:\symfony-docker\php-project\system\CodeIgniter.php(832): App\Controllers\Measurement->report('2022-11-01T00:0...', '2022-11-01T00:0...')
+#3 C:\symfony-docker\php-project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Measurement))
+#4 C:\symfony-docker\php-project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\symfony-docker\php-project\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#6 C:\symfony-docker\php-project\system\Commands\Server\rewrite.php(43): require_once('C:\\symfony-dock...')
+#7 {main}
+CRITICAL - 2022-11-12 15:15:21 --> A non well formed numeric value encountered
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well form...', 'C:\\symfony-dock...', 29, Array)
+#1 C:\symfony-docker\php-project\app\Controllers\Measurement.php(29): str_split('T', '2022-11-01T00:0...')
+#2 C:\symfony-docker\php-project\system\CodeIgniter.php(832): App\Controllers\Measurement->report('2022-11-01T00:0...', '2022-11-01T00:0...')
+#3 C:\symfony-docker\php-project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Measurement))
+#4 C:\symfony-docker\php-project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\symfony-docker\php-project\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#6 C:\symfony-docker\php-project\system\Commands\Server\rewrite.php(43): require_once('C:\\symfony-dock...')
+#7 {main}
+CRITICAL - 2022-11-12 15:16:37 --> Call to a member function format() on string
+#0 C:\symfony-docker\php-project\system\CodeIgniter.php(832): App\Controllers\Measurement->report(Object(DateTime), '2022-11-01T00:0...')
+#1 C:\symfony-docker\php-project\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Measurement))
+#2 C:\symfony-docker\php-project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\symfony-docker\php-project\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#4 C:\symfony-docker\php-project\system\Commands\Server\rewrite.php(43): require_once('C:\\symfony-dock...')
+#5 {main}
