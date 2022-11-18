@@ -35,8 +35,8 @@ $routes->resource('client', ['filter' => 'authFilter']);
 $routes->resource('vehicle', ['filter' => 'authFilter']);
 $routes->resource('measurement', ['filter' => 'authFilter']);
 $routes->resource('crop', ['filter' => 'authFilter']);
-$routes->resource('cropcycle', ['filter' => 'authFilter', 'to'=>'CropCycle']);
-$routes->resource('greenhouse', ['filter' => 'authFilter', 'to'=>'GreenHouse']);
+$routes->resource('cropCycle', ['filter' => 'authFilter', 'to'=>'CropCycle']);
+$routes->resource('greenHouse', ['filter' => 'authFilter', 'to'=>'GreenHouse']);
 $routes->post("login", "Login::index");
 $routes->get("report/(:any)/(:any)", "Measurement::report/$1/$2", ['filter' => 'authFilter']);
 /*
