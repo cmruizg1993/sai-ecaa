@@ -43,4 +43,11 @@ class Crop extends BaseController
         $response['success'] = true;
         return $this->respond($response);
     }
+    public function show($id = null)
+    {
+        $model = new CropModel();
+        $result = $model->find($id);
+        $response['data'] = $result;
+        return $this->respond($response);
+    }
 }

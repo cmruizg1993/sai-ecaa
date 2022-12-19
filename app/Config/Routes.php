@@ -34,11 +34,13 @@ $routes->setAutoRoute(true);
 $routes->resource('client', ['filter' => 'authFilter']);
 $routes->resource('vehicle', ['filter' => 'authFilter']);
 $routes->resource('measurement', ['filter' => 'authFilter']);
+$routes->get("crop/(:any)", "Crop::show/$1", []);
 $routes->resource('crop', ['filter' => 'authFilter']);
 $routes->resource('cropCycle', ['filter' => 'authFilter', 'to'=>'CropCycle']);
 $routes->resource('greenHouse', ['filter' => 'authFilter', 'to'=>'GreenHouse']);
 $routes->post("login", "Login::index");
 $routes->get("report/(:any)/(:any)", "Measurement::report/$1/$2", ['filter' => 'authFilter']);
+
 /*
 $routes->group("", function ($routes) {
     $routes->get("users", "User::index", ['filter' => 'authFilter']);

@@ -1,0 +1,8 @@
+CRITICAL - 2022-12-19 08:43:09 --> Expired token
+#0 C:\symfony-docker\php-project\app\Filters\AuthFilter.php(67): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', Object(Firebase\JWT\Key))
+#1 C:\symfony-docker\php-project\system\Filters\Filters.php(196): App\Filters\AuthFilter->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), NULL)
+#2 C:\symfony-docker\php-project\system\CodeIgniter.php(436): CodeIgniter\Filters\Filters->run('crop', 'after')
+#3 C:\symfony-docker\php-project\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\symfony-docker\php-project\public\index.php(39): CodeIgniter\CodeIgniter->run()
+#5 C:\symfony-docker\php-project\system\Commands\Server\rewrite.php(43): require_once('C:\\symfony-dock...')
+#6 {main}
