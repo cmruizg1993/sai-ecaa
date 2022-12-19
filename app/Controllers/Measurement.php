@@ -57,7 +57,7 @@ class Measurement extends BaseController
         $measurement->temperature = (int)$values[0];
         $measurement->relative_humidity = (int)$values[1];
         $measurement->soil_moisture = (int)$values[2];
-        $measurement->cycle_id = 4;
+        $measurement->cycle_id = 8;
         $model = new MeasurementModel();
         $model->save($measurement);
 
@@ -71,6 +71,9 @@ class Measurement extends BaseController
         $data['monitoreo']['humedadr']['nivel1'] = $measurement->relative_humidity;
         $data['monitoreo']['humedads'] = [];
         $data['monitoreo']['humedads']['nivel1'] = $measurement->soil_moisture;
+        $data['control']['cortina1'] = (int)$values[3];
+        $data['control']['cortina1'] = (int)$values[4];
+        $data['control']['riego'] = (int)$values[5];
         setData('', $data);
         $response['data'] = $data;
         return $this->respond($response);
