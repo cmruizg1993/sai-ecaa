@@ -46,8 +46,11 @@ class Crop extends BaseController
     public function show($id = null)
     {
         $model = new CropModel();
-        $result = $model->find($id);
-        $response['data'] = $result;
+        $result = $model->find($id);        
+        $response['maxT'] = $result->max_temp;
+        $response['minT'] = $result->min_temp;
+        $response['maxHS'] = $result->max_hs;
+        $response['minHS'] = $result->max_hs;        
         return $this->respond($response);
     }
 }
