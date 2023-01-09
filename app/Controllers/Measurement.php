@@ -72,7 +72,7 @@ class Measurement extends BaseController
         $data['monitoreo']['humedads'] = [];
         $data['monitoreo']['humedads']['nivel1'] = $measurement->soil_moisture;
         $data['control']['cortina1'] = (int)$values[3];
-        $data['control']['cortina1'] = (int)$values[4];
+        $data['control']['cortina2'] = (int)$values[4];
         $data['control']['riego'] = (int)$values[5];
         setData('', $data);
         $response['data'] = $data;
