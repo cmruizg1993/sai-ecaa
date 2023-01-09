@@ -50,7 +50,7 @@ class Crop extends BaseController
         $response['maxT'] = $result->max_temp;
         $response['minT'] = $result->min_temp;
         $response['maxHS'] = $result->max_hs;
-        $response['minHS'] = $result->max_hs;
+        $response['minHS'] = $result->min_hs;
         //$response = [$result->max_temp, $result->min_temp, $result->max_hs, $result->max_hs];
         return $this->respond([join(",",$response)]);
         //return $this->respond($response);
